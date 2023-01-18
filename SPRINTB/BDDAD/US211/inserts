@@ -1,0 +1,15 @@
+insert into Cultura values (10,2,'teste');
+insert into Parcela values (10,'Parcela teste', 50);
+insert into Plantacao values (10,10,TO_DATE('25/07/2015','dd/mm/yyyy'),TO_DATE('25/09/2015','dd/mm/yyyy'), 18);
+insert into Operacao values(10,10,TO_DATE('25/07/2015','dd/mm/yyyy'),TO_TIMESTAMP('16-08-2015 10:40', 'dd-mm-yyyy hh24:mi'),NULL, 'Rega');
+insert into Registo_Rega values(10,10,TO_DATE('25/07/2015','dd/mm/yyyy'),TO_TIMESTAMP('16-08-2015 10:40', 'dd-mm-yyyy hh24:mi'),1,NULL,70);
+insert into Cultura values (11,2,'teste2');
+insert into Parcela values (11,'Parcela teste2', 50);
+insert into Plantacao values (11,11,TO_DATE('25/10/2015','dd/mm/yyyy'),TO_DATE('26/10/2015','dd/mm/yyyy'), 20);
+insert into Operacao values(11,11,TO_DATE('25/10/2015','dd/mm/yyyy'),TO_TIMESTAMP('15-11-2015 10:40', 'dd-mm-yyyy hh24:mi'),NULL, 'Colheita');
+insert into Registo_Colheita values (11,11,TO_DATE('25/10/2015','dd/mm/yyyy'),TO_TIMESTAMP('15-11-2015 10:40', 'dd-mm-yyyy hh24:mi'),NULL,28);
+insert into Cultura values (12,2,'teste3');
+insert into Parcela values (12,'Parcela teste3', 50);
+insert into Plantacao values (12,12,TO_DATE('25/11/2015','dd/mm/yyyy'),TO_DATE('26/10/2015','dd/mm/yyyy'), 20);
+insert into Operacao values(12,12,TO_DATE('25/11/2015','dd/mm/yyyy'),TO_TIMESTAMP('15-12-2015 10:40', 'dd-mm-yyyy hh24:mi'),NULL, 'Fertilizacao');
+insert into Registo_Fertilizacao values (12,12,TO_DATE('25/11/2015','dd/mm/yyyy'),TO_TIMESTAMP('15-12-2015 10:40', 'dd-mm-yyyy hh24:mi'),3,1,NULL,35);

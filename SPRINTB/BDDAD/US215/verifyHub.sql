@@ -1,0 +1,8 @@
+CREATE OR REPLACE FUNCTION fnc_verify_hub (string IN VARCHAR2)
+   RETURN INT
+IS
+   num NUMBER;
+BEGIN
+   SELECT COUNT(*) INTO num FROM Hub WHERE ID_HUB_PK LIKE string;
+   RETURN num;
+END;

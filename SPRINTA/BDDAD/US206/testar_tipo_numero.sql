@@ -1,0 +1,11 @@
+CREATE OR REPLACE FUNCTION fnc_testar_tipo_numero (string IN VARCHAR2)
+   RETURN INT
+IS
+   num NUMBER;
+BEGIN
+   num := TO_NUMBER(string);
+   RETURN 1;
+EXCEPTION
+WHEN VALUE_ERROR THEN
+   RETURN 0;
+END;

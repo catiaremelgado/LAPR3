@@ -1,0 +1,79 @@
+@startuml
+'https://plantuml.com/class-diagram
+hide circle
+skinparam linetype ortho
+
+entity "Dim_Tipo_Cultura" as DimTpCult {
+  *===ID_TpCult_pk
+  *nome_TpCult
+}
+
+entity "Dim_Cultura" as DimCult {
+  *===ID_Cult_pk
+  *ID_TpCult_fk
+  *especie_vegetal_Cult
+}
+
+entity "Dim_Produto" as DimProd {
+  *===ID_Produto_pk
+  *ID_Cult_fk
+  *preco_Prod
+}
+
+entity "Fact_Producao" as FactProdc{
+    *===ID_Produto_ck
+    *===ID_Tempo_ck
+    *===ID_Setor_ck
+    *quantidade_Prodc
+}
+
+entity "Dim_Setor" as DimSet{
+    *===ID_Setor_pk
+    *designacao_Set
+    *area_Set
+}
+
+entity "Fact_Venda" as FactVend{
+    *===ID_Produto_ck
+    *===ID_Tempo_ck
+    *===codigo_interno_ck
+    *quantidade_Vend
+    *preco_vendido_Vend
+}
+
+entity "Dim_Cliente" as DimClt{
+    *===codigo_interno_pk
+    *nome_Clt
+    *numero_fiscal_Clt_u
+    *email_Clt_u
+}
+
+entity "Dim_Tempo" as DimTm{
+    *===ID_Tempo_pk
+    *ID_Mes_fk
+    *ID_Ano_fk
+}
+
+entity "Dim_Mes" as DimMes{
+    *===ID_Mes_ck
+    *===ID_Ano_ck
+    *Nome_Mes
+}
+
+entity "Dim_Ano" as DimAn{
+    *===ID_Ano_pk
+    *Nome_Ano
+}
+
+DimCult }|..|| DimTpCult
+DimProd }|--|| DimCult
+DimProd ||--|{ FactProdc
+DimSet ||---|{ FactProdc
+DimProd ||---|{ FactVend
+DimClt ||--|{ FactVend
+FactProdc }|--|| DimTm
+FactVend }|--|| DimTm
+DimTm ||..|| DimMes
+DimMes ||--|| DimAn
+
+@enduml

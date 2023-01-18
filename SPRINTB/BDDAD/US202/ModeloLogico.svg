@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="755.6px" preserveAspectRatio="none" style="width:812px;height:755px;background:#FFFFFF;" version="1.1" viewBox="0 0 812 755" width="812.4px" zoomAndPan="magnify"><defs/><g><!--MD5=[c93bd075fd182c90dc2d93e1c15271c2]
+class OLog--><g id="elem_OLog"><rect codeLine="5" fill="#F1F1F1" height="109.8008" id="OLog" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="84.4" x="466.8" y="237.2"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="36.4" x="490.8" y="244.6141">OperacaoLog</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="467.2" x2="550.8" y1="247.7953" y2="247.7953"/><ellipse cx="471.2" cy="253.5285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="37.2" x="474.8" y="255.1961">ID_OLog_pk</text><ellipse cx="471.2" cy="260.3594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="26.4" x="474.8" y="261.8758">ID_Prcl_fk</text><ellipse cx="471.2" cy="266.9547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="27.6" x="474.8" y="268.4711">ID_Cult_fk</text><ellipse cx="471.2" cy="273.55" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="36.4" x="474.8" y="275.0664">data_Plant_fk</text><ellipse cx="471.2" cy="280.1453" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="44.8" x="474.8" y="281.6617">data_exec_OLog</text><ellipse cx="471.2" cy="286.7406" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="42.8" x="474.8" y="288.257">comando_OLog</text><ellipse cx="471.2" cy="293.3359" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="56.4" x="474.8" y="294.8523">tipo_operacao_OLog</text><ellipse cx="471.2" cy="299.9313" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="70.4" x="474.8" y="301.4477">data_efetivo_previo_OLog</text><ellipse cx="471.2" cy="306.5266" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="66.8" x="474.8" y="308.043">data_efetivo_novo_OLog</text><ellipse cx="471.2" cy="313.1219" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="74" x="474.8" y="314.6383">data_previsto_previo_OLog</text><ellipse cx="471.2" cy="319.7172" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="70.4" x="474.8" y="321.2336">data_previsto_novo_OLog</text><ellipse cx="471.2" cy="326.3125" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="68" x="474.8" y="327.8289">quantidade_previa_OLog</text><ellipse cx="471.2" cy="332.9078" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="64" x="474.8" y="334.4242">quantidade_nova_CLog</text><ellipse cx="471.2" cy="339.5031" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="12" x="474.8" y="341.0195">user</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="467.2" x2="550.8" y1="343.8008" y2="343.8008"/></g><!--MD5=[3652e7794874ec28a83fc36b347aa685]
+class RLog--><g id="elem_RLog"><rect codeLine="23" fill="#F1F1F1" height="37.2523" id="RLog" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="58.4" x="479.8" y="387.8"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="23.6" x="497.2" y="395.2141">RegaLog</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="480.2" x2="537.8" y1="398.3953" y2="398.3953"/><ellipse cx="484.2" cy="404.1285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="37.2" x="487.8" y="405.7961">ID_OLog_pk</text><ellipse cx="484.2" cy="410.9594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="48" x="487.8" y="412.4758">tipo_previo_OLog</text><ellipse cx="484.2" cy="417.5547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="44.4" x="487.8" y="419.0711">tipo_novo_OLog</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="480.2" x2="537.8" y1="421.8523" y2="421.8523"/></g><!--MD5=[b736d8959df6c6f28041e96458e456e0]
+class FLog--><g id="elem_FLog"><rect codeLine="29" fill="#F1F1F1" height="37.2523" id="FLog" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="58.4" x="552.2" y="387.8"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="41.6" x="560.6" y="395.2141">FertilizacaoLog</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="552.6" x2="610.2" y1="398.3953" y2="398.3953"/><ellipse cx="556.6" cy="404.1285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="37.2" x="560.2" y="405.7961">ID_OLog_pk</text><ellipse cx="556.6" cy="410.9594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="48" x="560.2" y="412.4758">tipo_previo_OLog</text><ellipse cx="556.6" cy="417.5547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="44.4" x="560.2" y="419.0711">tipo_novo_OLog</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="552.6" x2="610.2" y1="421.8523" y2="421.8523"/></g><!--MD5=[193dbffda046c91f550300b54276423b]
+class CLog--><g id="elem_CLog"><rect codeLine="35" fill="#F1F1F1" height="24.0617" id="CLog" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="47.6" x="418" y="394.4"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="32.8" x="425.4" y="401.8141">ColheitaLog</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="418.4" x2="465.2" y1="404.9953" y2="404.9953"/><ellipse cx="422.4" cy="410.7285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="37.2" x="426" y="412.3961">ID_OLog_pk</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="418.4" x2="465.2" y1="415.2617" y2="415.2617"/></g><!--MD5=[16968f7cb241c0870ecbb696e6d83b9c]
+class TpReg--><g id="elem_TpReg"><rect codeLine="39" fill="#F1F1F1" height="30.657" id="TpReg" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="50.8" x="248.8" y="10"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="28.8" x="259.8" y="17.4141">Tipo_Rega</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="249.2" x2="299.2" y1="20.5953" y2="20.5953"/><ellipse cx="253.2" cy="26.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="40.4" x="256.8" y="27.9961">ID_TpReg_pk</text><ellipse cx="253.2" cy="33.1594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="31.2" x="256.8" y="34.6758">tipo_TpReg</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="249.2" x2="299.2" y1="37.457" y2="37.457"/></g><!--MD5=[94bed4840b7addd9eb6e9eab38d580a8]
+class PlnReg--><g id="elem_PlnReg"><rect codeLine="44" fill="#F1F1F1" height="64.5758" id="PlnReg" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="69.6" x="281.8" y="72.4"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="31.6" x="300.8" y="79.8141">Plano_Rega</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="282.2" x2="351" y1="82.9953" y2="82.9953"/><ellipse cx="286.2" cy="88.7285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="289.8" y="90.3961">ID_Prcl_ck</text><ellipse cx="286.2" cy="95.7949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="32.8" x="289.8" y="97.4625">ID_Cult_ck</text><ellipse cx="286.2" cy="102.8613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="42.4" x="289.8" y="104.5289">data_Plant_ck</text><ellipse cx="286.2" cy="109.6922" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="34" x="289.8" y="111.2086">ID_TpReg_fk</text><ellipse cx="286.2" cy="116.2875" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="54.4" x="289.8" y="117.8039">tempo_rega_PlnReg</text><ellipse cx="286.2" cy="122.8828" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="59.2" x="289.8" y="124.3992">periodicidade_PlnReg</text><ellipse cx="286.2" cy="129.4781" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="52.8" x="289.8" y="130.9945">quantidade_PlnReg</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="282.2" x2="351" y1="133.7758" y2="133.7758"/></g><!--MD5=[7077679c76cd5b5b7359dcbb411f8d17]
+class RFT--><g id="elem_RFT"><rect codeLine="53" fill="#F1F1F1" height="45.2609" id="RFT" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="76.8" x="361" y="2.8"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="68.4" x="365.2" y="10.2141">RestricoesFatorProducao</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="361.4" x2="437.4" y1="13.3953" y2="13.3953"/><ellipse cx="365.4" cy="19.1285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="369" y="20.7961">ID_Prcl_ck</text><ellipse cx="365.4" cy="26.1949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="36.4" x="369" y="27.8625">ID_FtPrd_ck</text><ellipse cx="365.4" cy="33.2613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="66.4" x="369" y="34.9289">data_hora_inicio_RFT</text><ellipse cx="365.4" cy="40.3277" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="59.6" x="369" y="41.9953">data_hora_fim_RFT</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="361.4" x2="437.4" y1="44.8609" y2="44.8609"/></g><!--MD5=[bfa538b344fbd0c09bfb4e8c41385c9b]
+class Op--><g id="elem_Op"><rect codeLine="61" fill="#F1F1F1" height="58.9227" id="Op" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="82.4" x="121.4" y="377"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="26.4" x="149.4" y="384.4141">Operacao</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="121.8" x2="203.4" y1="387.5953" y2="387.5953"/><ellipse cx="125.8" cy="393.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="129.4" y="394.9961">ID_Prcl_ck</text><ellipse cx="125.8" cy="400.3949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="32.8" x="129.4" y="402.0625">ID_Cult_ck</text><ellipse cx="125.8" cy="407.4613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="42.4" x="129.4" y="409.1289">data_Plant_ck</text><ellipse cx="125.8" cy="414.5277" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="72" x="129.4" y="416.1953">data_hora_previsto_Op</text><ellipse cx="125.8" cy="421.5941" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="72" x="129.4" y="423.2617">data_hora_previsto_Op</text><ellipse cx="125.8" cy="428.425" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="59.6" x="129.4" y="429.9414">data_hora_efetivo_Op</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="121.8" x2="203.4" y1="432.7227" y2="432.7227"/></g><!--MD5=[1ddd07265dc7690636993791e96fdef0]
+class RgtReg--><g id="elem_RgtReg"><rect codeLine="70" fill="#F1F1F1" height="65.0469" id="RgtReg" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="95.6" x="172" y="72"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="36.8" x="201.4" y="79.4141">Registo_Rega</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="172.4" x2="267.2" y1="82.5953" y2="82.5953"/><ellipse cx="176.4" cy="88.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="180" y="89.9961">ID_Prcl_ck</text><ellipse cx="176.4" cy="95.3949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="32.8" x="180" y="97.0625">ID_Cult_ck</text><ellipse cx="176.4" cy="102.4613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="42.4" x="180" y="104.1289">data_Plant_ck</text><ellipse cx="176.4" cy="109.5277" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="85.2" x="180" y="111.1953">data_hora_previsto_RgtReg</text><ellipse cx="176.4" cy="116.3586" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="80" x="180" y="117.875">data_hora_efetivo_RgtReg_ck</text><ellipse cx="176.4" cy="122.9539" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="34" x="180" y="124.4703">ID_TpReg_fk</text><ellipse cx="176.4" cy="129.5492" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="53.6" x="180" y="131.0656">quantidade_RgtReg</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="172.4" x2="267.2" y1="133.8469" y2="133.8469"/></g><!--MD5=[156e0e13ace5d513eed3ac8f7dfb8bc3]
+class Prcl--><g id="elem_Prcl"><rect codeLine="80" fill="#F1F1F1" height="37.2523" id="Prcl" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="54.4" x="370.2" y="86"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="19.6" x="387.6" y="93.4141">Parcela</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="370.6" x2="424.2" y1="96.5953" y2="96.5953"/><ellipse cx="374.6" cy="102.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="32.4" x="378.2" y="103.9961">ID_Prcl_pk</text><ellipse cx="374.6" cy="109.1594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="44" x="378.2" y="110.6758">designacao_Prcl</text><ellipse cx="374.6" cy="115.7547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="24.8" x="378.2" y="117.2711">area_Prcl</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="370.6" x2="424.2" y1="120.0523" y2="120.0523"/></g><!--MD5=[1a0c340cc9a6675c49ddba93d045cd2b]
+class RgtColh--><g id="elem_RgtColh"><rect codeLine="86" fill="#F1F1F1" height="58.4516" id="RgtColh" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="98.4" x="134.2" y="263"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="46" x="160.4" y="270.4141">Registo_Colheita</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="134.6" x2="232.2" y1="273.5953" y2="273.5953"/><ellipse cx="138.6" cy="279.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="142.2" y="280.9961">ID_Prcl_ck</text><ellipse cx="138.6" cy="286.3949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="32.8" x="142.2" y="288.0625">ID_Cult_ck</text><ellipse cx="138.6" cy="293.4613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="42.4" x="142.2" y="295.1289">data_Plant_ck</text><ellipse cx="138.6" cy="300.5277" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="88" x="142.2" y="302.1953">data_hora_previsto_RgtColh</text><ellipse cx="138.6" cy="307.3586" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="60" x="142.2" y="308.875">data_colh_RgtColh_ck</text><ellipse cx="138.6" cy="313.9539" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="56" x="142.2" y="315.4703">quantidade_RgtColh</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="134.6" x2="232.2" y1="318.2516" y2="318.2516"/></g><!--MD5=[77e0b605413a3de2ffd2565e3731112d]
+class Plant--><g id="elem_Plant"><rect codeLine="95" fill="#F1F1F1" height="51.3852" id="Plant" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="53.2" x="290" y="161.6"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="26.4" x="303.4" y="169.0141">Plantacao</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="290.4" x2="342.8" y1="172.1953" y2="172.1953"/><ellipse cx="294.4" cy="177.9285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="298" y="179.5961">ID_Prcl_ck</text><ellipse cx="294.4" cy="184.9949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="32.8" x="298" y="186.6625">ID_Cult_ck</text><ellipse cx="294.4" cy="192.0613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="42.4" x="298" y="193.7289">data_Plant_ck</text><ellipse cx="294.4" cy="198.8922" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="42.8" x="298" y="200.4086">data_dest_Plant</text><ellipse cx="294.4" cy="205.4875" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="28.4" x="298" y="207.0039">area_Plant</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="290.4" x2="342.8" y1="209.7852" y2="209.7852"/></g><!--MD5=[82e76877d25a796acde6b955c13897aa]
+class TpFtPrd--><g id="elem_TpFtPrd"><rect codeLine="103" fill="#F1F1F1" height="30.657" id="TpFtPrd" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="66" x="743.6" y="276.8"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="58.4" x="747.4" y="284.2141">Tipo_Fator_Producao</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="744" x2="809.2" y1="287.3953" y2="287.3953"/><ellipse cx="748" cy="293.1285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="45.2" x="751.6" y="294.7961">ID_TpFtPrd_pk</text><ellipse cx="748" cy="299.9594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="55.6" x="751.6" y="301.4758">designacao_TpFtPrd</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="744" x2="809.2" y1="304.257" y2="304.257"/></g><!--MD5=[9cc31c9cf618ee5aea5553d806263b64]
+class Prod--><g id="elem_Prod"><rect codeLine="108" fill="#F1F1F1" height="51.8563" id="Prod" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="78.4" x="86.2" y="161.2"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="22" x="114.4" y="168.6141">Produto</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="86.6" x2="164.2" y1="171.7953" y2="171.7953"/><ellipse cx="90.6" cy="177.5285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="33.6" x="94.2" y="179.1961">ID_Cult_pk</text><ellipse cx="90.6" cy="184.5949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="94.2" y="186.2625">ID_Prcl_ck</text><ellipse cx="90.6" cy="191.6613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="42.4" x="94.2" y="193.3289">data_Plant_ck</text><ellipse cx="90.6" cy="198.7277" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="68" x="94.2" y="200.3953">data_colh_RgtColh_ck</text><ellipse cx="90.6" cy="205.5586" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="50.4" x="94.2" y="207.075">preco_venda_Prod</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="86.6" x2="164.2" y1="209.8563" y2="209.8563"/></g><!--MD5=[d8a4797827945ce05371bacc024875a6]
+class Cult--><g id="elem_Cult"><rect codeLine="117" fill="#F1F1F1" height="37.2523" id="Cult" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="67.2" x="275" y="273.6"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="20.4" x="298.4" y="281.0141">Cultura</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="275.4" x2="341.8" y1="284.1953" y2="284.1953"/><ellipse cx="279.4" cy="289.9285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="33.6" x="283" y="291.5961">ID_Cult_pk</text><ellipse cx="279.4" cy="296.7594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="34.8" x="283" y="298.2758">ID_TpCult_fk</text><ellipse cx="279.4" cy="303.3547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="56.8" x="283" y="304.8711">especie_vegetal_Cult</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="275.4" x2="341.8" y1="307.6523" y2="307.6523"/></g><!--MD5=[7b0bedb275401e6e4a290db4087aceec]
+class TpCult--><g id="elem_TpCult"><rect codeLine="123" fill="#F1F1F1" height="30.657" id="TpCult" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="52" x="328.6" y="391"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="35.6" x="336.8" y="398.4141">Tipo_Cultura</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="329" x2="380.2" y1="401.5953" y2="401.5953"/><ellipse cx="333" cy="407.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="41.6" x="336.6" y="408.9961">ID_TpCult_pk</text><ellipse cx="333" cy="414.1594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="36.8" x="336.6" y="415.6758">nome_TpCult</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="329" x2="380.2" y1="418.457" y2="418.457"/></g><!--MD5=[60b1053af5d2a4d3937ff7083fa2f939]
+class FtPrd--><g id="elem_FtPrd"><rect codeLine="128" fill="#F1F1F1" height="50.443" id="FtPrd" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="79.2" x="566.2" y="162"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="43.2" x="584.2" y="169.4141">Fator_Producao</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="566.6" x2="645" y1="172.5953" y2="172.5953"/><ellipse cx="570.6" cy="178.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="37.2" x="574.2" y="179.9961">ID_FtPrd_pk</text><ellipse cx="570.6" cy="185.1594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="38" x="574.2" y="186.6758">ID_TpFtPrd_fk</text><ellipse cx="570.6" cy="191.7547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="32.8" x="574.2" y="193.2711">preco_FtPrd</text><ellipse cx="570.6" cy="198.35" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="68.8" x="574.2" y="199.8664">nome_comercial_FTFtPrd</text><ellipse cx="570.6" cy="204.9453" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="30.4" x="574.2" y="206.4617">fornecedor</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="566.6" x2="645" y1="209.243" y2="209.243"/></g><!--MD5=[c0b564597b28f0061ef5609fdac87928]
+class PlnFert--><g id="elem_PlnFert"><rect codeLine="136" fill="#F1F1F1" height="72.5844" id="PlnFert" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="81.2" x="565.2" y="256"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="49.6" x="581" y="263.4141">Plano_Fertilizacao</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="565.6" x2="646" y1="266.5953" y2="266.5953"/><ellipse cx="569.6" cy="272.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="573.2" y="273.9961">ID_Prcl_ck</text><ellipse cx="569.6" cy="279.3949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="32.8" x="573.2" y="281.0625">ID_Cult_ck</text><ellipse cx="569.6" cy="286.4613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="36.4" x="573.2" y="288.1289">ID_FtPrd_ck</text><ellipse cx="569.6" cy="293.5277" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="42.4" x="573.2" y="295.1953">data_Plant_ck</text><ellipse cx="569.6" cy="300.5941" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="70.8" x="573.2" y="302.2617">data_inicial_PlnFert_ck</text><ellipse cx="569.6" cy="307.6605" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="66" x="573.2" y="309.3281">data_final_PlnFert_ck</text><ellipse cx="569.6" cy="314.4914" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="34.4" x="573.2" y="316.0078">ID_TpFert_fk</text><ellipse cx="569.6" cy="321.0867" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="53.2" x="573.2" y="322.6031">quantidade_PlnFert</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="565.6" x2="646" y1="325.3844" y2="325.3844"/></g><!--MD5=[b78d8200db83426e092b43ca5bf064ae]
+class RgtFert--><g id="elem_RgtFert"><rect codeLine="147" fill="#F1F1F1" height="72.1133" id="RgtFert" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="96.4" x="356.4" y="256.2"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="54.8" x="377.2" y="263.6141">Registo_Fertilizacao</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="356.8" x2="452.4" y1="266.7953" y2="266.7953"/><ellipse cx="360.8" cy="272.5285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="364.4" y="274.1961">ID_Prcl_ck</text><ellipse cx="360.8" cy="279.5949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="32.8" x="364.4" y="281.2625">ID_Cult_ck</text><ellipse cx="360.8" cy="286.6613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="42.4" x="364.4" y="288.3289">data_Plant_ck</text><ellipse cx="360.8" cy="293.7277" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="40" x="364.4" y="295.3953">ID_FatPrd_ck</text><ellipse cx="360.8" cy="300.7941" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="86" x="364.4" y="302.4617">data_hora_previsto_RgtFert</text><ellipse cx="360.8" cy="307.625" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="80.4" x="364.4" y="309.1414">data_hora_efetivo_RgtFert_ck</text><ellipse cx="360.8" cy="314.2203" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="34.4" x="364.4" y="315.7367">ID_TpFert_fk</text><ellipse cx="360.8" cy="320.8156" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="54" x="364.4" y="322.332">quantidade_RgtFert</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="356.8" x2="452.4" y1="325.1133" y2="325.1133"/></g><!--MD5=[2b8fe6ec45bec8b229aabe76ecf90b15]
+class Sens--><g id="elem_Sens"><rect codeLine="158" fill="#F1F1F1" height="30.657" id="Sens" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="46.8" x="242.8" y="472.2"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="18.8" x="256.8" y="479.6141">Sensor</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="243.2" x2="289.2" y1="482.7953" y2="482.7953"/><ellipse cx="247.2" cy="488.5285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="35.2" x="250.8" y="490.1961">ID_Sens_pk</text><ellipse cx="247.2" cy="495.3594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="36.4" x="250.8" y="496.8758">ID_TpSens_fk</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="243.2" x2="289.2" y1="499.657" y2="499.657"/></g><!--MD5=[27fcb7d0de617f67c27e51a7833703ff]
+class TpSens--><g id="elem_TpSens"><rect codeLine="163" fill="#F1F1F1" height="43.8477" id="TpSens" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="59.2" x="236.6" y="533.6"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="34" x="249.2" y="541.0141">Tipo_Sensor</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="237" x2="295.4" y1="544.1953" y2="544.1953"/><ellipse cx="241" cy="549.9285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="43.2" x="244.6" y="551.5961">ID_TpSens_pk</text><ellipse cx="241" cy="556.7594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="33.6" x="244.6" y="558.2758">tipo_TpSens</text><ellipse cx="241" cy="563.3547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="45.2" x="244.6" y="564.8711">unidade_TpSens</text><ellipse cx="241" cy="569.95" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="48.8" x="244.6" y="571.4664">grandeza_TpSens</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="237" x2="295.4" y1="574.2477" y2="574.2477"/></g><!--MD5=[ee14b078fe7ff9361d7bbdab35517cae]
+class RgtSens--><g id="elem_RgtSens"><rect codeLine="169" fill="#F1F1F1" height="65.518" id="RgtSens" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="96.8" x="217.8" y="373.6"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="41.6" x="245.4" y="381.0141">Registo_sensor</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="218.2" x2="314.2" y1="384.1953" y2="384.1953"/><ellipse cx="222.2" cy="389.9285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="225.8" y="391.5961">ID_Prcl_ck</text><ellipse cx="222.2" cy="396.9949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="32.8" x="225.8" y="398.6625">ID_Cult_ck</text><ellipse cx="222.2" cy="404.0613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="42.4" x="225.8" y="405.7289">data_Plant_ck</text><ellipse cx="222.2" cy="411.1277" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="34.4" x="225.8" y="412.7953">ID_Sens_ck</text><ellipse cx="222.2" cy="418.1941" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="86.4" x="225.8" y="419.8617">data_capturado_RgtSens_ck</text><ellipse cx="222.2" cy="425.025" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="69.2" x="225.8" y="426.5414">valor_capturado_RgtSens</text><ellipse cx="222.2" cy="431.6203" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="44.8" x="225.8" y="433.1367">valor_ref_InSens</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="218.2" x2="314.2" y1="435.918" y2="435.918"/></g><!--MD5=[19694ba4e63fb2f28199c5928048944f]
+class InSens--><g id="elem_InSens"><rect codeLine="179" fill="#F1F1F1" height="24.0617" id="InSens" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="38" x="454" y="13.4"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="35.6" x="455.2" y="20.8141">input_sensor</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="454.4" x2="491.6" y1="23.9953" y2="23.9953"/><ellipse cx="458.4" cy="29.7285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="27.6" x="462" y="31.3961">hub_info</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="454.4" x2="491.6" y1="34.2617" y2="34.2617"/></g><!--MD5=[54663c140c003bc163c6fb46ff7ab777]
+class InHub--><g id="elem_InHub"><rect codeLine="183" fill="#F1F1F1" height="24.0617" id="InHub" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="38" x="543.6" y="13.4"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="28" x="548.6" y="20.8141">input_hub</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="544" x2="581.2" y1="23.9953" y2="23.9953"/><ellipse cx="548" cy="29.7285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="27.6" x="551.6" y="31.3961">hub_info</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="544" x2="581.2" y1="34.2617" y2="34.2617"/></g><!--MD5=[70a93e40820e09fe6c82aea962bef208]
+class Hub--><g id="elem_Hub"><rect codeLine="187" fill="#F1F1F1" height="37.2523" id="Hub" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="44" x="73" y="537"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="11.2" x="89.4" y="544.4141">Hub</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="73.4" x2="116.6" y1="547.5953" y2="547.5953"/><ellipse cx="77.4" cy="553.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="33.6" x="81" y="554.9961">ID_Hub_pk</text><ellipse cx="77.4" cy="560.1594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="20.8" x="81" y="561.6758">lat_Hub</text><ellipse cx="77.4" cy="566.7547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="26" x="81" y="568.2711">lang_Hub</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="73.4" x2="116.6" y1="571.0523" y2="571.0523"/></g><!--MD5=[e0de82e7270728392b2c52fb2c79a746]
+class Ed--><g id="elem_Ed"><rect codeLine="195" fill="#F1F1F1" height="30.657" id="Ed" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="40.8" x="614.6" y="10"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="20" x="625" y="17.4141">Edificio</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="615" x2="655" y1="20.5953" y2="20.5953"/><ellipse cx="619" cy="26.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="28.4" x="622.6" y="27.9961">ID_Ed_pk</text><ellipse cx="619" cy="33.1594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="30.4" x="622.6" y="34.6758">ID_TpEd_fk</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="615" x2="655" y1="37.457" y2="37.457"/></g><!--MD5=[75120641edb0d188b27b49bd93fee5e3]
+class TpEd--><g id="elem_TpEd"><rect codeLine="200" fill="#F1F1F1" height="30.657" id="TpEd" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="46.8" x="611.6" y="89.2"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="35.2" x="617.4" y="96.6141">Tipo_Edificio</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="612" x2="658" y1="99.7953" y2="99.7953"/><ellipse cx="616" cy="105.5285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="36.4" x="619.6" y="107.1961">ID_TpEd_pk</text><ellipse cx="616" cy="112.3594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="32.4" x="619.6" y="113.8758">nome_TpEd</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="612" x2="658" y1="116.657" y2="116.657"/></g><!--MD5=[fdbca5300b0b1920b62d098d5edd251a]
+class EstEnc--><g id="elem_EstEnc"><rect codeLine="205" fill="#F1F1F1" height="30.657" id="EstEnc" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="67.6" x="21.2" y="472.2"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="53.2" x="28.4" y="479.6141">Estado_Encomenda</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="21.6" x2="88.4" y1="482.7953" y2="482.7953"/><ellipse cx="25.6" cy="488.5285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="40.8" x="29.2" y="490.1961">ID_EstEnc_pk</text><ellipse cx="25.6" cy="495.3594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="57.2" x="29.2" y="496.8758">nome_estado_EstEnc</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="21.6" x2="88.4" y1="499.657" y2="499.657"/></g><!--MD5=[c1238efb9617e6f01959ad99fe622e1c]
+class Enc--><g id="elem_Enc"><rect codeLine="210" fill="#F1F1F1" height="70.2289" id="Enc" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="104.4" x="2.8" y="371.2"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="32" x="39" y="378.6141">Encomenda</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="3.2" x2="106.8" y1="381.7953" y2="381.7953"/><ellipse cx="7.2" cy="387.5285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="10.8" y="389.1961">ID_Enc_pk</text><ellipse cx="7.2" cy="394.3594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="34" x="10.8" y="395.8758">ID_EstEnc_fk</text><ellipse cx="7.2" cy="400.9547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="60" x="10.8" y="402.4711">codigo_interno_Clt_fk</text><ellipse cx="7.2" cy="407.55" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="27.6" x="10.8" y="409.0664">ID_Hub_fk</text><ellipse cx="7.2" cy="414.1453" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="46.4" x="10.8" y="415.6617">data_pedido_Enc</text><ellipse cx="7.2" cy="420.7406" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="48.4" x="10.8" y="422.257">data_entrega_Enc</text><ellipse cx="7.2" cy="427.3359" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="76.4" x="10.8" y="428.8523">data_limite_pagamento_Enc</text><ellipse cx="7.2" cy="433.9313" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="94" x="10.8" y="435.4477">data_pagamento_pelo_cliente_Enc</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="3.2" x2="106.8" y1="438.2289" y2="438.2289"/></g><!--MD5=[e9bd76f3679c8b6980679d7261f01c2a]
+class Inci--><g id="elem_Inci"><rect codeLine="221" fill="#F1F1F1" height="43.8477" id="Inci" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="70.4" x="156.6" y="709.2"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="25.2" x="179.2" y="716.6141">Incidente</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="157" x2="226.6" y1="719.7953" y2="719.7953"/><ellipse cx="161" cy="725.5285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="164.6" y="727.1961">ID_Enc_pk</text><ellipse cx="161" cy="732.3594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="60" x="164.6" y="733.8758">codigo_interno_Clt_fk</text><ellipse cx="161" cy="738.9547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="42" x="164.6" y="740.4711">data_inicio_Inci</text><ellipse cx="161" cy="745.55" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="47.2" x="164.6" y="747.0664">data_sanado_Inci</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="157" x2="226.6" y1="749.8477" y2="749.8477"/></g><!--MD5=[011c3694982759a868d7562d28cdfdb6]
+class Clt--><g id="elem_Clt"><rect codeLine="228" fill="#F1F1F1" height="83.4195" id="Clt" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="121.6" x="43" y="601.6"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="19.2" x="94.2" y="609.0141">Cliente</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="43.4" x2="164.2" y1="612.1953" y2="612.1953"/><ellipse cx="47.4" cy="617.9285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="57.2" x="51" y="619.5961">codigo_interno_ck</text><ellipse cx="47.4" cy="624.7594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="31.2" x="51" y="626.2758">ID_TpClt_fk</text><ellipse cx="47.4" cy="631.3547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="24.8" x="51" y="632.8711">ID_Niv_fk</text><ellipse cx="47.4" cy="637.95" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="27.6" x="51" y="639.4664">ID_Hub_fk</text><ellipse cx="47.4" cy="644.5453" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="26" x="51" y="646.0617">nome_Clt</text><ellipse cx="47.4" cy="651.1406" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="55.2" x="51" y="652.657">numero_fiscal_Clt_u</text><ellipse cx="47.4" cy="657.7359" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="31.6" x="51" y="659.2523">email_Clt_u</text><ellipse cx="47.4" cy="664.3313" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="31.6" x="51" y="665.8477">plafond_Clt</text><ellipse cx="47.4" cy="670.9266" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="94.8" x="51" y="672.443">num_encomendas_ult12meses_Clt</text><ellipse cx="47.4" cy="677.5219" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="111.2" x="51" y="679.0383">valor_total_encomendas_ult12meses_Clt</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="43.4" x2="164.2" y1="681.8195" y2="681.8195"/></g><!--MD5=[c0bf63a3d6f694dd7eaa5c5af42be5d7]
+class TpClt--><g id="elem_TpClt"><rect codeLine="242" fill="#F1F1F1" height="30.657" id="TpClt" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="59.2" x="77.4" y="715.8"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="34.4" x="89.8" y="723.2141">Tipo_Cliente</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="77.8" x2="136.2" y1="726.3953" y2="726.3953"/><ellipse cx="81.8" cy="732.1285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="37.6" x="85.4" y="733.7961">ID_TpClt_pk</text><ellipse cx="81.8" cy="738.9594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="48.8" x="85.4" y="740.4758">designacao_TpClt</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="77.8" x2="136.2" y1="743.257" y2="743.257"/></g><!--MD5=[5ad3b48971f7f9b20a1e7c7527e91910]
+class Niv--><g id="elem_Niv"><rect codeLine="247" fill="#F1F1F1" height="30.657" id="Niv" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="41.6" x="21.8" y="715.8"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="13.2" x="36" y="723.2141">Nivel</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="22.2" x2="63" y1="726.3953" y2="726.3953"/><ellipse cx="26.2" cy="732.1285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="29.8" y="733.7961">ID_Niv_pk</text><ellipse cx="26.2" cy="738.9594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="24" x="29.8" y="740.4758">nivel_Niv</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="22.2" x2="63" y1="743.257" y2="743.257"/></g><!--MD5=[5d59c777baa906167aa651683563861b]
+class ItmEnc--><g id="elem_ItmEnc"><rect codeLine="252" fill="#F1F1F1" height="72.1133" id="ItmEnc" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="104.4" x="15.6" y="256.2"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="46.8" x="44.4" y="263.6141">Item_Encomenda</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="16" x2="119.6" y1="266.7953" y2="266.7953"/><ellipse cx="20" cy="272.5285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="30.8" x="23.6" y="274.1961">ID_Enc_ck</text><ellipse cx="20" cy="279.5949" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="33.6" x="23.6" y="281.2625">ID_Cult_pk</text><ellipse cx="20" cy="286.6613" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="31.6" x="23.6" y="288.3289">ID_Prcl_ck</text><ellipse cx="20" cy="293.7277" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="42.4" x="23.6" y="295.3953">data_Plant_ck</text><ellipse cx="20" cy="300.7941" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="68" x="23.6" y="302.4617">data_colh_RgtColh_ck</text><ellipse cx="20" cy="307.625" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="94" x="23.6" y="309.1414">quantidade_encomendada_ItmEnc</text><ellipse cx="20" cy="314.2203" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="61.2" x="23.6" y="315.7367">preco_unitario_ItmEnc</text><ellipse cx="20" cy="320.8156" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="62" x="23.6" y="322.332">nome_produto_ItmEnc</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="16" x2="119.6" y1="325.1133" y2="325.1133"/></g><!--MD5=[594c3f16d0b1f6b35610d6fd7614b91e]
+class TpFert--><g id="elem_TpFert"><rect codeLine="263" fill="#F1F1F1" height="30.657" id="TpFert" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="51.6" x="506" y="89.2"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="46.8" x="508.4" y="96.6141">Tipo_Fertilizacao</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="506.4" x2="557.2" y1="99.7953" y2="99.7953"/><ellipse cx="510.4" cy="105.5285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="41.2" x="514" y="107.1961">ID_TpFert_pk</text><ellipse cx="510.4" cy="112.3594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="31.6" x="514" y="113.8758">tipo_TpFert</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="506.4" x2="557.2" y1="116.657" y2="116.657"/></g><!--MD5=[7252279bad43525fedaf50da58e2883d]
+class FTFtPrd--><g id="elem_FTFtPrd"><rect codeLine="268" fill="#F1F1F1" height="50.443" id="FTFtPrd" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="69.2" x="660.4" y="267"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="66.8" x="661.6" y="274.4141">Ficha_Tecnica_Producao</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="660.8" x2="729.2" y1="277.5953" y2="277.5953"/><ellipse cx="664.8" cy="283.3285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="44.8" x="668.4" y="284.9961">ID_FTFtPrd_pk</text><ellipse cx="664.8" cy="290.1594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="30.8" x="668.4" y="291.6758">ID_FtPrd_fk</text><ellipse cx="664.8" cy="296.7547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="34.8" x="668.4" y="298.2711">tipo_FTFtPrd</text><ellipse cx="664.8" cy="303.35" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="37.6" x="668.4" y="304.8664">valor_FTFtPrd</text><ellipse cx="664.8" cy="309.9453" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="46.4" x="668.4" y="311.4617">unidade_FTFtPrd</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="660.8" x2="729.2" y1="314.243" y2="314.243"/></g><!--MD5=[82edfe101cacb17615191961c8ad4d2c]
+class Mor--><g id="elem_Mor"><rect codeLine="276" fill="#F1F1F1" height="43.8477" id="Mor" rx="1" ry="1" style="stroke:#181818;stroke-width:0.20000000000000004;" width="70.4" x="103" y="465.6"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="20.8" x="127.8" y="473.0141">Morada</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="103.4" x2="173" y1="476.1953" y2="476.1953"/><ellipse cx="107.4" cy="481.9285" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="6" font-weight="bold" lengthAdjust="spacing" textLength="33.2" x="111" y="483.5961">ID_Mor_pk</text><ellipse cx="107.4" cy="488.7594" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="60" x="111" y="490.2758">codigo_interno_Clt_fk</text><ellipse cx="107.4" cy="495.3547" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="34.8" x="111" y="496.8711">morada_Mor</text><ellipse cx="107.4" cy="501.95" fill="#000000" rx="1.2" ry="1.2" style="stroke:#000000;stroke-width:0.4000000000000001;"/><text fill="#000000" font-family="sans-serif" font-size="5.6" lengthAdjust="spacing" textLength="27.6" x="111" y="503.4664">fiscal_Mor</text><line style="stroke:#181818;stroke-width:0.20000000000000004;" x1="103.4" x2="173" y1="506.2477" y2="506.2477"/></g><!--MD5=[61f829f5cb899cb20067f66052222ae5]
+link Mor to Hub--><g id="link_Mor_Hub"><path codeLine="283" d="M110,512.876 C110,512.876 110,533.736 110,533.736 " fill="none" id="Mor-Hub" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="110" x2="112.4" y1="533.736" y2="536.936"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="110" x2="107.6" y1="533.736" y2="536.936"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="110" x2="110" y1="533.736" y2="536.936"/><ellipse cx="110" cy="531.336" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="108.4" x2="111.6" y1="511.276" y2="511.276"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="108.4" x2="111.6" y1="512.476" y2="512.476"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="110" x2="110" y1="512.876" y2="509.676"/></g><!--MD5=[7fea3927351cea8a9869438544455174]
+link Hub to Enc--><g id="link_Hub_Enc"><path codeLine="284" d="M95.9,533.656 C95.9,533.656 95.9,444.916 95.9,444.916 " fill="none" id="Hub-Enc" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="95.9" x2="93.5" y1="444.916" y2="441.716"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="95.9" x2="98.3" y1="444.916" y2="441.716"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="95.9" x2="95.9" y1="444.916" y2="441.716"/><ellipse cx="95.9" cy="447.316" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="97.5" x2="94.3" y1="535.256" y2="535.256"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="97.5" x2="94.3" y1="534.056" y2="534.056"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="95.9" x2="95.9" y1="533.656" y2="536.856"/></g><!--MD5=[b944893b9a289af64fc3d9254d55bda7]
+link Hub to Clt--><g id="link_Hub_Clt"><path codeLine="285" d="M95,577.42 C95,577.42 95,598.304 95,598.304 " fill="none" id="Hub-Clt" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="95" x2="97.4" y1="598.304" y2="601.504"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="95" x2="92.6" y1="598.304" y2="601.504"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="95" x2="95" y1="598.304" y2="601.504"/><ellipse cx="95" cy="595.904" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="93.4" x2="96.6" y1="575.82" y2="575.82"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="93.4" x2="96.6" y1="577.02" y2="577.02"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="95" x2="95" y1="577.42" y2="574.22"/></g><!--MD5=[96818c52781aa7bcb9d2491fa9658647]
+link TpReg to RgtReg--><g id="link_TpReg_RgtReg"><path codeLine="286" d="M258.2,44.06 C258.2,44.06 258.2,68.776 258.2,68.776 " fill="none" id="TpReg-RgtReg" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="258.2" x2="260.6" y1="68.776" y2="71.976"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="258.2" x2="255.8" y1="68.776" y2="71.976"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="258.2" x2="258.2" y1="68.776" y2="71.976"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="259.8" x2="256.6" y1="67.976" y2="67.976"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="256.6" x2="259.8" y1="42.46" y2="42.46"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="256.6" x2="259.8" y1="43.66" y2="43.66"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="258.2" x2="258.2" y1="44.06" y2="40.86"/></g><!--MD5=[5890c62d7cc62249541cdff177ece917]
+link TpReg to PlnReg--><g id="link_TpReg_PlnReg"><path codeLine="287" d="M290.7,44.06 C290.7,44.06 290.7,69.104 290.7,69.104 " fill="none" id="TpReg-PlnReg" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="290.7" x2="293.1" y1="69.104" y2="72.304"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="290.7" x2="288.3" y1="69.104" y2="72.304"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="290.7" x2="290.7" y1="69.104" y2="72.304"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="292.3" x2="289.1" y1="68.304" y2="68.304"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="289.1" x2="292.3" y1="42.46" y2="42.46"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="289.1" x2="292.3" y1="43.66" y2="43.66"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="290.7" x2="290.7" y1="44.06" y2="40.86"/></g><!--MD5=[c8d17c36703a879a6e287bdf76397d9f]
+link RgtReg to Plant--><g id="link_RgtReg_Plant"><path codeLine="288" d="M250.1,140.452 C250.1,140.452 250.1,178.8 250.1,178.8 C250.1,178.8 286.736,178.8 286.736,178.8 " fill="none" id="RgtReg-Plant" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="288.336" x2="288.336" y1="177.2" y2="180.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="287.136" x2="287.136" y1="177.2" y2="180.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="286.736" x2="289.936" y1="178.8" y2="178.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="250.1" x2="247.7" y1="140.452" y2="137.252"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="250.1" x2="252.5" y1="140.452" y2="137.252"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="250.1" x2="250.1" y1="140.452" y2="137.252"/><ellipse cx="250.1" cy="142.852" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/></g><!--MD5=[83c9de493bed710967961f781a102dad]
+link PlnReg to Plant--><g id="link_PlnReg_Plant"><path codeLine="289" d="M316.6,140.092 C316.6,140.092 316.6,158.376 316.6,158.376 " fill="none" id="PlnReg-Plant" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="318.2" x2="315" y1="159.976" y2="159.976"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="318.2" x2="315" y1="158.776" y2="158.776"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="316.6" x2="316.6" y1="158.376" y2="161.576"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="316.6" x2="314.2" y1="140.092" y2="136.892"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="316.6" x2="319" y1="140.092" y2="136.892"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="316.6" x2="316.6" y1="140.092" y2="136.892"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="315" x2="318.2" y1="140.892" y2="140.892"/></g><!--MD5=[e2a4063b23cad3add46b3b443548c19d]
+link Plant to RgtColh--><g id="link_Plant_RgtColh"><path codeLine="290" d="M303.048,216.092 C303.048,216.092 303.048,268.4 303.048,268.4 C303.048,268.4 235.956,268.4 235.956,268.4 " fill="none" id="Plant-RgtColh" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="235.956" x2="232.756" y1="268.4" y2="270.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="235.956" x2="232.756" y1="268.4" y2="266"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="235.956" x2="232.756" y1="268.4" y2="268.4"/><ellipse cx="238.356" cy="268.4" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="301.448" x2="304.648" y1="214.492" y2="214.492"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="301.448" x2="304.648" y1="215.692" y2="215.692"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="303.048" x2="303.048" y1="216.092" y2="212.892"/></g><!--MD5=[51bf36865576f0c1f5b92df2a0a20f80]
+link Prcl to Plant--><g id="link_Prcl_Plant"><path codeLine="291" d="M397.4,126.436 C397.4,126.436 397.4,182.4 397.4,182.4 C397.4,182.4 346.48,182.4 346.48,182.4 " fill="none" id="Prcl-Plant" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="346.48" x2="343.28" y1="182.4" y2="184.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="346.48" x2="343.28" y1="182.4" y2="180"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="346.48" x2="343.28" y1="182.4" y2="182.4"/><ellipse cx="348.88" cy="182.4" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="395.8" x2="399" y1="124.836" y2="124.836"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="395.8" x2="399" y1="126.036" y2="126.036"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="397.4" x2="397.4" y1="126.436" y2="123.236"/></g><!--MD5=[a75b43e8266310e6df1d7f35c228dcc1]
+link Plant to RgtSens--><g id="link_Plant_RgtSens"><path codeLine="292" d="M286.788,196 C286.788,196 271.3,196 271.3,196 C271.3,196 271.3,370.324 271.3,370.324 " fill="none" id="Plant-RgtSens" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="271.3" x2="273.7" y1="370.324" y2="373.524"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="271.3" x2="268.9" y1="370.324" y2="373.524"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="271.3" x2="271.3" y1="370.324" y2="373.524"/><ellipse cx="271.3" cy="367.924" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="288.388" x2="288.388" y1="194.4" y2="197.6"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="287.188" x2="287.188" y1="194.4" y2="197.6"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="286.788" x2="289.988" y1="196" y2="196"/></g><!--MD5=[f4bd88ce81bda392a46aa5bddf0ae0f8]
+link RgtSens to Sens--><g id="link_RgtSens_Sens"><path codeLine="293" d="M266.2,442.512 C266.2,442.512 266.2,468.912 266.2,468.912 " fill="none" id="RgtSens-Sens" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="267.8" x2="264.6" y1="470.512" y2="470.512"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="267.8" x2="264.6" y1="469.312" y2="469.312"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="266.2" x2="266.2" y1="468.912" y2="472.112"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="266.2" x2="263.8" y1="442.512" y2="439.312"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="266.2" x2="268.6" y1="442.512" y2="439.312"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="266.2" x2="266.2" y1="442.512" y2="439.312"/><ellipse cx="266.2" cy="444.912" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/></g><!--MD5=[4a49e63baf0adafa04c3419a27ae4b42]
+link Sens to TpSens--><g id="link_Sens_TpSens"><path codeLine="294" d="M266.2,506.232 C266.2,506.232 266.2,530.328 266.2,530.328 " fill="none" id="Sens-TpSens" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="267.8" x2="264.6" y1="531.928" y2="531.928"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="267.8" x2="264.6" y1="530.728" y2="530.728"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="266.2" x2="266.2" y1="530.328" y2="533.528"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="266.2" x2="263.8" y1="506.232" y2="503.032"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="266.2" x2="268.6" y1="506.232" y2="503.032"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="266.2" x2="266.2" y1="506.232" y2="503.032"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="264.6" x2="267.8" y1="507.032" y2="507.032"/></g><!--MD5=[c55b2de1db912779cbde765b1b0a2eba]
+link Plant to Cult--><g id="link_Plant_Cult"><path codeLine="295" d="M316.1,216.084 C316.1,216.084 316.1,270.328 316.1,270.328 " fill="none" id="Plant-Cult" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="317.7" x2="314.5" y1="271.928" y2="271.928"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="317.7" x2="314.5" y1="270.728" y2="270.728"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="316.1" x2="316.1" y1="270.328" y2="273.528"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="316.1" x2="313.7" y1="216.084" y2="212.884"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="316.1" x2="318.5" y1="216.084" y2="212.884"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="316.1" x2="316.1" y1="216.084" y2="212.884"/><ellipse cx="316.1" cy="218.484" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/></g><!--MD5=[200f66ee539bf374016fff191923c165]
+link Cult to TpCult--><g id="link_Cult_TpCult"><path codeLine="296" d="M335.4,314.004 C335.4,314.004 335.4,387.724 335.4,387.724 " fill="none" id="Cult-TpCult" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="337" x2="333.8" y1="389.324" y2="389.324"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="337" x2="333.8" y1="388.124" y2="388.124"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="335.4" x2="335.4" y1="387.724" y2="390.924"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="335.4" x2="333" y1="314.004" y2="310.804"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="335.4" x2="337.8" y1="314.004" y2="310.804"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="335.4" x2="335.4" y1="314.004" y2="310.804"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="333.8" x2="337" y1="314.804" y2="314.804"/></g><!--MD5=[cfd20cb33fa879e20c274fed0fea5ff5]
+link Plant to RgtFert--><g id="link_Plant_RgtFert"><path codeLine="297" d="M346.464,202.4 C346.464,202.4 358.7,202.4 358.7,202.4 C358.7,202.4 358.7,252.992 358.7,252.992 " fill="none" id="Plant-RgtFert" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="358.7" x2="361.1" y1="252.992" y2="256.192"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="358.7" x2="356.3" y1="252.992" y2="256.192"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="358.7" x2="358.7" y1="252.992" y2="256.192"/><ellipse cx="358.7" cy="250.592" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="344.864" x2="344.864" y1="204" y2="200.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="346.064" x2="346.064" y1="204" y2="200.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="346.464" x2="343.264" y1="202.4" y2="202.4"/></g><!--MD5=[f8b7b91d1ba38c57a6aafdd1147db5bc]
+link Plant to OLog--><g id="link_Plant_OLog"><path codeLine="298" d="M329.152,216.02 C329.152,216.02 329.152,246.8 329.152,246.8 C329.152,246.8 463.52,246.8 463.52,246.8 " fill="none" id="Plant-OLog" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="463.52" x2="466.72" y1="246.8" y2="244.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="463.52" x2="466.72" y1="246.8" y2="249.2"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="463.52" x2="466.72" y1="246.8" y2="246.8"/><ellipse cx="461.12" cy="246.8" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="327.552" x2="330.752" y1="214.42" y2="214.42"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="327.552" x2="330.752" y1="215.62" y2="215.62"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="329.152" x2="329.152" y1="216.02" y2="212.82"/></g><!--MD5=[05469e6c1b5964dc18bb5f4f01c83817]
+link OLog to FLog--><g id="link_OLog_FLog"><path codeLine="299" d="M554.172,338 C554.172,338 556.248,338 556.248,338 C556.248,338 556.248,384.908 556.248,384.908 " fill="none" id="OLog-FLog" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="557.848" x2="554.648" y1="386.108" y2="386.108"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="557.848" x2="554.648" y1="384.908" y2="384.908"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="556.248" x2="556.248" y1="384.508" y2="387.708"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="552.972" x2="552.972" y1="339.6" y2="336.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="554.172" x2="554.172" y1="339.6" y2="336.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="554.572" x2="551.372" y1="338" y2="338"/></g><!--MD5=[8b27b7d8d707369cf8a0d8608fa5de1a]
+link OLog to RLog--><g id="link_OLog_RLog"><path codeLine="300" d="M509,350.092 C509,350.092 509,384.996 509,384.996 " fill="none" id="OLog-RLog" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="510.6" x2="507.4" y1="386.196" y2="386.196"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="510.6" x2="507.4" y1="384.996" y2="384.996"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="509" x2="509" y1="384.596" y2="387.796"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="507.4" x2="510.6" y1="348.892" y2="348.892"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="507.4" x2="510.6" y1="350.092" y2="350.092"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="509" x2="509" y1="350.492" y2="347.292"/></g><!--MD5=[df385b870f90db1f08cc607c8e46a2a8]
+link OLog to CLog--><g id="link_OLog_CLog"><path codeLine="301" d="M463.944,338 C463.944,338 459.8,338 459.8,338 C459.8,338 459.8,391.528 459.8,391.528 " fill="none" id="OLog-CLog" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="461.4" x2="458.2" y1="392.728" y2="392.728"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="461.4" x2="458.2" y1="391.528" y2="391.528"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="459.8" x2="459.8" y1="391.128" y2="394.328"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="465.144" x2="465.144" y1="336.4" y2="339.6"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="463.944" x2="463.944" y1="336.4" y2="339.6"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="463.544" x2="466.744" y1="338" y2="338"/></g><!--MD5=[7a17832b753179d43075976ec7a75830]
+link Plant to PlnFert--><g id="link_Plant_PlnFert"><path codeLine="302" d="M346.404,192.4 C346.404,192.4 553.552,192.4 553.552,192.4 C553.552,192.4 553.552,304.4 553.552,304.4 C553.552,304.4 561.944,304.4 561.944,304.4 " fill="none" id="Plant-PlnFert" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="561.944" x2="565.144" y1="304.4" y2="302"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="561.944" x2="565.144" y1="304.4" y2="306.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="561.944" x2="565.144" y1="304.4" y2="304.4"/><ellipse cx="559.544" cy="304.4" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="344.804" x2="344.804" y1="194" y2="190.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="346.004" x2="346.004" y1="194" y2="190.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="346.404" x2="343.204" y1="192.4" y2="192.4"/></g><!--MD5=[0f7d1188238781d4828578ce086bce43]
+link TpFert to RgtFert--><g id="link_TpFert_RgtFert"><path codeLine="303" d="M502.736,104.8 C502.736,104.8 442.8,104.8 442.8,104.8 C442.8,104.8 442.8,252.98 442.8,252.98 " fill="none" id="TpFert-RgtFert" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="442.8" x2="445.2" y1="252.98" y2="256.18"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="442.8" x2="440.4" y1="252.98" y2="256.18"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="442.8" x2="442.8" y1="252.98" y2="256.18"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="444.4" x2="441.2" y1="252.18" y2="252.18"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="504.336" x2="504.336" y1="103.2" y2="106.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="503.136" x2="503.136" y1="103.2" y2="106.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="502.736" x2="505.936" y1="104.8" y2="104.8"/></g><!--MD5=[d65149b13d849a76beb4e3132ce3bdaf]
+link TpFert to PlnFert--><g id="link_TpFert_PlnFert"><path codeLine="304" d="M554.9,123.248 C554.9,123.248 554.9,280.4 554.9,280.4 C554.9,280.4 561.88,280.4 561.88,280.4 " fill="none" id="TpFert-PlnFert" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="561.88" x2="565.08" y1="280.4" y2="278"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="561.88" x2="565.08" y1="280.4" y2="282.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="561.88" x2="565.08" y1="280.4" y2="280.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="561.08" x2="561.08" y1="278.8" y2="282"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="553.3" x2="556.5" y1="121.648" y2="121.648"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="553.3" x2="556.5" y1="122.848" y2="122.848"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="554.9" x2="554.9" y1="123.248" y2="120.048"/></g><!--MD5=[3dd70adf8aca44a27abaddcc303bd767]
+link FtPrd to PlnFert--><g id="link_FtPrd_PlnFert"><path codeLine="305" d="M605.8,215.684 C605.8,215.684 605.8,252.72 605.8,252.72 " fill="none" id="FtPrd-PlnFert" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="605.8" x2="608.2" y1="252.72" y2="255.92"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="605.8" x2="603.4" y1="252.72" y2="255.92"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="605.8" x2="605.8" y1="252.72" y2="255.92"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="607.4" x2="604.2" y1="251.92" y2="251.92"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="604.2" x2="607.4" y1="214.084" y2="214.084"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="604.2" x2="607.4" y1="215.284" y2="215.284"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="605.8" x2="605.8" y1="215.684" y2="212.484"/></g><!--MD5=[a4ef46581e2cb1275adc08eb4f35d6b4]
+link FtPrd to RgtFert--><g id="link_FtPrd_RgtFert"><path codeLine="306" d="M562.932,172.4 C562.932,172.4 447.8,172.4 447.8,172.4 C447.8,172.4 447.8,252.892 447.8,252.892 " fill="none" id="FtPrd-RgtFert" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="447.8" x2="450.2" y1="252.892" y2="256.092"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="447.8" x2="445.4" y1="252.892" y2="256.092"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="447.8" x2="447.8" y1="252.892" y2="256.092"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="449.4" x2="446.2" y1="252.092" y2="252.092"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="564.532" x2="564.532" y1="170.8" y2="174"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="563.332" x2="563.332" y1="170.8" y2="174"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="562.932" x2="566.132" y1="172.4" y2="172.4"/></g><!--MD5=[e1a1c022ad35380b77062052afbf8c3b]
+link FtPrd to FTFtPrd--><g id="link_FtPrd_FTFtPrd"><path codeLine="307" d="M648.644,195.6 C648.644,195.6 695,195.6 695,195.6 C695,195.6 695,263.744 695,263.744 " fill="none" id="FtPrd-FTFtPrd" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="695" x2="697.4" y1="263.744" y2="266.944"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="695" x2="692.6" y1="263.744" y2="266.944"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="695" x2="695" y1="263.744" y2="266.944"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="696.6" x2="693.4" y1="262.944" y2="262.944"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="647.044" x2="647.044" y1="197.2" y2="194"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="648.244" x2="648.244" y1="197.2" y2="194"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="648.644" x2="645.444" y1="195.6" y2="195.6"/></g><!--MD5=[88583459fcdd7e867752fd24b7cfc0f1]
+link FtPrd to TpFtPrd--><g id="link_FtPrd_TpFtPrd"><path codeLine="308" d="M648.616,178.8 C648.616,178.8 776.6,178.8 776.6,178.8 C776.6,178.8 776.6,273.588 776.6,273.588 " fill="none" id="FtPrd-TpFtPrd" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="778.2" x2="775" y1="275.188" y2="275.188"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="778.2" x2="775" y1="273.988" y2="273.988"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="776.6" x2="776.6" y1="273.588" y2="276.788"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="648.616" x2="645.416" y1="178.8" y2="181.2"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="648.616" x2="645.416" y1="178.8" y2="176.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="648.616" x2="645.416" y1="178.8" y2="178.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="649.416" x2="649.416" y1="180.4" y2="177.2"/></g><!--MD5=[7cb94fb56b55fca078a4b5dace99fa2d]
+link Prod to ItmEnc--><g id="link_Prod_ItmEnc"><path codeLine="309" d="M103.1,216.488 C103.1,216.488 103.1,252.932 103.1,252.932 " fill="none" id="Prod-ItmEnc" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="103.1" x2="105.5" y1="252.932" y2="256.132"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="103.1" x2="100.7" y1="252.932" y2="256.132"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="103.1" x2="103.1" y1="252.932" y2="256.132"/><ellipse cx="103.1" cy="250.532" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="101.5" x2="104.7" y1="214.888" y2="214.888"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="101.5" x2="104.7" y1="216.088" y2="216.088"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="103.1" x2="103.1" y1="216.488" y2="213.288"/></g><!--MD5=[98d2677600e6d4ee672b776f839ab95a]
+link ItmEnc to Enc--><g id="link_ItmEnc_Enc"><path codeLine="310" d="M61.4,331.532 C61.4,331.532 61.4,367.888 61.4,367.888 " fill="none" id="ItmEnc-Enc" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="63" x2="59.8" y1="369.488" y2="369.488"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="63" x2="59.8" y1="368.288" y2="368.288"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="61.4" x2="61.4" y1="367.888" y2="371.088"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="61.4" x2="59" y1="331.532" y2="328.332"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="61.4" x2="63.8" y1="331.532" y2="328.332"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="61.4" x2="61.4" y1="331.532" y2="328.332"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="59.8" x2="63" y1="332.332" y2="332.332"/></g><!--MD5=[65089cfd4d6b726b41f68951f4f0f688]
+link Enc to EstEnc--><g id="link_Enc_EstEnc"><path codeLine="311" d="M55,444.86 C55,444.86 55,468.924 55,468.924 " fill="none" id="Enc-EstEnc" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="56.6" x2="53.4" y1="470.524" y2="470.524"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="56.6" x2="53.4" y1="469.324" y2="469.324"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="55" x2="55" y1="468.924" y2="472.124"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="55" x2="52.6" y1="444.86" y2="441.66"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="55" x2="57.4" y1="444.86" y2="441.66"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="55" x2="55" y1="444.86" y2="441.66"/><ellipse cx="55" cy="447.26" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/></g><!--MD5=[276172ad297e5a8dc8eeec4259d9ffd2]
+link Enc to Inci--><g id="link_Enc_Inci"><path codeLine="312" d="M110.428,437.6 C110.428,437.6 188.6,437.6 188.6,437.6 C188.6,437.6 188.6,705.932 188.6,705.932 " fill="none" id="Enc-Inci" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="188.6" x2="188.6" y1="704.732" y2="709.132"/><ellipse cx="188.6" cy="704.732" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="190.2" x2="187" y1="707.532" y2="707.532"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="108.828" x2="108.828" y1="439.2" y2="436"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="110.028" x2="110.028" y1="439.2" y2="436"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="110.428" x2="107.228" y1="437.6" y2="437.6"/></g><!--MD5=[95f4b093fc1ced3c74f70cce363ab7fd]
+link Enc to Mor--><g id="link_Enc_Mor"><path codeLine="313" d="M105.1,444.86 C105.1,444.86 105.1,462.392 105.1,462.392 " fill="none" id="Enc-Mor" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="106.7" x2="103.5" y1="463.992" y2="463.992"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="106.7" x2="103.5" y1="462.792" y2="462.792"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="105.1" x2="105.1" y1="462.392" y2="465.592"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="105.1" x2="102.7" y1="444.86" y2="441.66"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="105.1" x2="107.5" y1="444.86" y2="441.66"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="105.1" x2="105.1" y1="444.86" y2="441.66"/><ellipse cx="105.1" cy="447.26" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/></g><!--MD5=[eaee016aede68adbce0c7eb989d2a7ef]
+link Mor to Clt--><g id="link_Mor_Clt"><path codeLine="314" d="M140.8,512.956 C140.8,512.956 140.8,598.336 140.8,598.336 " fill="none" id="Mor-Clt" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="142.4" x2="139.2" y1="599.936" y2="599.936"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="142.4" x2="139.2" y1="598.736" y2="598.736"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="140.8" x2="140.8" y1="598.336" y2="601.536"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="140.8" x2="138.4" y1="512.956" y2="509.756"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="140.8" x2="143.2" y1="512.956" y2="509.756"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="140.8" x2="140.8" y1="512.956" y2="509.756"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="139.2" x2="142.4" y1="513.756" y2="513.756"/></g><!--MD5=[7372f41674f0f7bda8933c606e227143]
+link Clt to Enc--><g id="link_Clt_Enc"><path codeLine="315" d="M39.752,643.6 C39.752,643.6 12,643.6 12,643.6 C12,643.6 12,444.856 12,444.856 " fill="none" id="Clt-Enc" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="12" x2="9.6" y1="444.856" y2="441.656"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="12" x2="14.4" y1="444.856" y2="441.656"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="12" x2="12" y1="444.856" y2="441.656"/><ellipse cx="12" cy="447.256" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="41.352" x2="41.352" y1="642" y2="645.2"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="40.152" x2="40.152" y1="642" y2="645.2"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="39.752" x2="42.952" y1="643.6" y2="643.6"/></g><!--MD5=[50aecb916d63988f8c53d08578a37361]
+link Clt to Inci--><g id="link_Clt_Inci"><path codeLine="316" d="M160.6,688.444 C160.6,688.444 160.6,705.94 160.6,705.94 " fill="none" id="Clt-Inci" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="160.6" x2="163" y1="705.94" y2="709.14"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="160.6" x2="158.2" y1="705.94" y2="709.14"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="160.6" x2="160.6" y1="705.94" y2="709.14"/><ellipse cx="160.6" cy="703.54" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="159" x2="162.2" y1="686.844" y2="686.844"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="159" x2="162.2" y1="688.044" y2="688.044"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="160.6" x2="160.6" y1="688.444" y2="685.244"/></g><!--MD5=[74882bc223ebf12be00195ddcbdf810d]
+link Clt to TpClt--><g id="link_Clt_TpClt"><path codeLine="317" d="M107,688.444 C107,688.444 107,712.576 107,712.576 " fill="none" id="Clt-TpClt" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="108.6" x2="105.4" y1="714.176" y2="714.176"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="108.6" x2="105.4" y1="712.976" y2="712.976"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="107" x2="107" y1="712.576" y2="715.776"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="107" x2="104.6" y1="688.444" y2="685.244"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="107" x2="109.4" y1="688.444" y2="685.244"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="107" x2="107" y1="688.444" y2="685.244"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="105.4" x2="108.6" y1="689.244" y2="689.244"/></g><!--MD5=[062bec1c5ffdb3375360fb065d2b9308]
+link Clt to Niv--><g id="link_Clt_Niv"><path codeLine="318" d="M53.2,688.444 C53.2,688.444 53.2,712.576 53.2,712.576 " fill="none" id="Clt-Niv" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="54.8" x2="51.6" y1="714.176" y2="714.176"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="54.8" x2="51.6" y1="712.976" y2="712.976"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="53.2" x2="53.2" y1="712.576" y2="715.776"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="53.2" x2="50.8" y1="688.444" y2="685.244"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="53.2" x2="55.6" y1="688.444" y2="685.244"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="53.2" x2="53.2" y1="688.444" y2="685.244"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="51.6" x2="54.8" y1="689.244" y2="689.244"/></g><!--MD5=[7b20e764adb52aa7b945335c27f08855]
+link Ed to TpEd--><g id="link_Ed_TpEd"><path codeLine="319" d="M635,44.06 C635,44.06 635,85.98 635,85.98 " fill="none" id="Ed-TpEd" style="stroke:#181818;stroke-width:0.4000000000000001;stroke-dasharray:7.0,7.0;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="636.6" x2="633.4" y1="87.58" y2="87.58"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="636.6" x2="633.4" y1="86.38" y2="86.38"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="635" x2="635" y1="85.98" y2="89.18"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="635" x2="632.6" y1="44.06" y2="40.86"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="635" x2="637.4" y1="44.06" y2="40.86"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="635" x2="635" y1="44.06" y2="40.86"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="633.4" x2="636.6" y1="44.86" y2="44.86"/></g><!--MD5=[dbc8a8d7e489efe09f58b20f83ada752]
+link Prod to RgtColh--><g id="link_Prod_RgtColh"><path codeLine="320" d="M149.4,216.088 C149.4,216.088 149.4,260.112 149.4,260.112 " fill="none" id="Prod-RgtColh" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="151" x2="147.8" y1="261.312" y2="261.312"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="151" x2="147.8" y1="260.112" y2="260.112"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="149.4" x2="149.4" y1="259.712" y2="262.912"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="147.8" x2="151" y1="214.888" y2="214.888"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="147.8" x2="151" y1="216.088" y2="216.088"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="149.4" x2="149.4" y1="216.488" y2="213.288"/></g><!--MD5=[fa0162cea163c3c0ebc6702cd19314de]
+link RgtReg to Op--><g id="link_RgtReg_Op"><path codeLine="321" d="M202.3,140.036 C202.3,140.036 202.3,225.2 202.3,225.2 C202.3,225.2 127.8,225.2 127.8,225.2 C127.8,225.2 127.8,374.184 127.8,374.184 " fill="none" id="RgtReg-Op" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="129.4" x2="126.2" y1="375.384" y2="375.384"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="129.4" x2="126.2" y1="374.184" y2="374.184"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="127.8" x2="127.8" y1="373.784" y2="376.984"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="200.7" x2="203.9" y1="138.836" y2="138.836"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="200.7" x2="203.9" y1="140.036" y2="140.036"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="202.3" x2="202.3" y1="140.436" y2="137.236"/></g><!--MD5=[466dc4937dc41d7c86dd8df84a29b0f3]
+link RgtFert to Op--><g id="link_RgtFert_Op"><path codeLine="322" d="M353.472,324.8 C353.472,324.8 180.6,324.8 180.6,324.8 C180.6,324.8 180.6,374.14 180.6,374.14 " fill="none" id="RgtFert-Op" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="182.2" x2="179" y1="375.34" y2="375.34"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="182.2" x2="179" y1="374.14" y2="374.14"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="180.6" x2="180.6" y1="373.74" y2="376.94"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="354.672" x2="354.672" y1="323.2" y2="326.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="353.472" x2="353.472" y1="323.2" y2="326.4"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="353.072" x2="356.272" y1="324.8" y2="324.8"/></g><!--MD5=[0cef12e327aef64d41070977e25a3d7f]
+link RgtColh to Op--><g id="link_RgtColh_Op"><path codeLine="323" d="M157.4,324.26 C157.4,324.26 157.4,374.02 157.4,374.02 " fill="none" id="RgtColh-Op" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="159" x2="155.8" y1="375.22" y2="375.22"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="159" x2="155.8" y1="374.02" y2="374.02"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="157.4" x2="157.4" y1="373.62" y2="376.82"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="155.8" x2="159" y1="323.06" y2="323.06"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="155.8" x2="159" y1="324.26" y2="324.26"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="157.4" x2="157.4" y1="324.66" y2="321.46"/></g><!--MD5=[4c68c6627a9c99fe5ee3bf8de5d03bc9]
+link RFT to Prcl--><g id="link_RFT_Prcl"><path codeLine="324" d="M397.4,51.296 C397.4,51.296 397.4,82.708 397.4,82.708 " fill="none" id="RFT-Prcl" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="397.4" x2="399.8" y1="82.708" y2="85.908"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="397.4" x2="395" y1="82.708" y2="85.908"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="397.4" x2="397.4" y1="82.708" y2="85.908"/><ellipse cx="397.4" cy="80.308" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="395.8" x2="399" y1="49.696" y2="49.696"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="395.8" x2="399" y1="50.896" y2="50.896"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="397.4" x2="397.4" y1="51.296" y2="48.096"/></g><!--MD5=[f40b81ebc014d7c609ad7cba51a3dd35]
+link RFT to FtPrd--><g id="link_RFT_FtPrd"><path codeLine="325" d="M441.004,44.4 C441.004,44.4 573.9,44.4 573.9,44.4 C573.9,44.4 573.9,158.8 573.9,158.8 " fill="none" id="RFT-FtPrd" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="573.9" x2="576.3" y1="158.8" y2="162"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="573.9" x2="571.5" y1="158.8" y2="162"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="573.9" x2="573.9" y1="158.8" y2="162"/><ellipse cx="573.9" cy="156.4" fill="none" rx="1.6" ry="1.6" style="stroke:#181818;stroke-width:0.4000000000000001;"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="439.404" x2="439.404" y1="46" y2="42.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="440.604" x2="440.604" y1="46" y2="42.8"/><line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="441.004" x2="437.804" y1="44.4" y2="44.4"/></g><!--MD5=[cc41835dc2820330928e1f2b5807d096]
+@startuml
+'https://plantuml.com/class-diagram
+hide circle
+skinparam linetype ortho
+
+entity "OperacaoLog" as OLog {
+  *===ID_OLog_pk
+  *ID_Prcl_fk
+  *ID_Cult_fk
+  *data_Plant_fk
+  *data_exec_OLog
+  *comando_OLog
+  *tipo_operacao_OLog
+  *data_efetivo_previo_OLog
+  *data_efetivo_novo_OLog
+  *data_previsto_previo_OLog
+  *data_previsto_novo_OLog
+  'TpFert TpReg
+  *quantidade_previa_OLog
+  *quantidade_nova_CLog
+  *user
+}
+
+entity "RegaLog" as RLog {
+  *===ID_OLog_pk
+  *tipo_previo_OLog
+  *tipo_novo_OLog
+}
+
+entity "FertilizacaoLog" as FLog {
+    *===ID_OLog_pk
+    *tipo_previo_OLog
+    *tipo_novo_OLog
+}
+
+entity "ColheitaLog" as CLog {
+  *===ID_OLog_pk
+}
+
+entity "Tipo_Rega" as TpReg {
+  *===ID_TpReg_pk
+  *tipo_TpReg
+}
+
+entity "Plano_Rega" as PlnReg {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *ID_TpReg_fk
+  *tempo_rega_PlnReg
+  *periodicidade_PlnReg
+  *quantidade_PlnReg
+}
+entity "RestricoesFatorProducao" as RFT {
+  *===ID_Prcl_ck
+  *===ID_FtPrd_ck
+  *===data_hora_inicio_RFT
+  *===data_hora_fim_RFT
+}
+
+
+entity "Operacao" as Op {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===data_hora_previsto_Op
+  *===data_hora_previsto_Op
+  *data_hora_efetivo_Op
+
+}
+entity "Registo_Rega" as RgtReg {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===data_hora_previsto_RgtReg
+  *data_hora_efetivo_RgtReg_ck
+  *ID_TpReg_fk
+  *quantidade_RgtReg
+}
+
+entity "Parcela" as Prcl {
+  *===ID_Prcl_pk
+  *designacao_Prcl
+  *area_Prcl
+}
+
+entity "Registo_Colheita" as RgtColh {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===data_hora_previsto_RgtColh
+  *data_colh_RgtColh_ck
+  *quantidade_RgtColh
+}
+
+entity "Plantacao" as Plant {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *data_dest_Plant
+  *area_Plant
+}
+
+entity "Tipo_Fator_Producao" as TpFtPrd {
+  *===ID_TpFtPrd_pk
+  *designacao_TpFtPrd
+}
+
+entity "Produto" as Prod {
+  *===ID_Cult_pk
+  *===ID_Prcl_ck
+  *===data_Plant_ck
+  *===data_colh_RgtColh_ck
+  *preco_venda_Prod
+
+}
+
+entity "Cultura" as Cult {
+  *===ID_Cult_pk
+  *ID_TpCult_fk
+  *especie_vegetal_Cult
+}
+
+entity "Tipo_Cultura" as TpCult {
+  *===ID_TpCult_pk
+  *nome_TpCult
+}
+
+entity "Fator_Producao" as FtPrd {
+  *===ID_FtPrd_pk
+  *ID_TpFtPrd_fk
+  *preco_FtPrd
+  *nome_comercial_FTFtPrd
+  *fornecedor
+}
+
+entity "Plano_Fertilizacao" as PlnFert {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===ID_FtPrd_ck
+  *===data_Plant_ck
+  *===data_inicial_PlnFert_ck
+  *===data_final_PlnFert_ck
+  *ID_TpFert_fk
+  *quantidade_PlnFert
+}
+
+entity "Registo_Fertilizacao" as RgtFert {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===ID_FatPrd_ck
+  *===data_hora_previsto_RgtFert
+  *data_hora_efetivo_RgtFert_ck
+  *ID_TpFert_fk
+  *quantidade_RgtFert
+}
+
+entity "Sensor" as Sens {
+  *===ID_Sens_pk
+  *ID_TpSens_fk
+}
+
+entity "Tipo_Sensor" as TpSens {
+  *===ID_TpSens_pk
+  *tipo_TpSens
+  *unidade_TpSens
+  *grandeza_TpSens
+}
+entity "Registo_sensor" as RgtSens {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===ID_Sens_ck
+  *===data_capturado_RgtSens_ck
+  *valor_capturado_RgtSens
+  *valor_ref_InSens
+}
+
+entity "input_sensor" as InSens {
+  *===hub_info
+}
+
+entity "input_hub" as InHub {
+  *===hub_info
+}
+
+entity "Hub" as Hub {
+  *===ID_Hub_pk
+  *lat_Hub
+  *lang_Hub
+  '*ID_Morada_fk
+  '*ID_Empresa
+}
+
+entity "Edificio" as Ed {
+  *===ID_Ed_pk
+  *ID_TpEd_fk
+}
+
+entity "Tipo_Edificio" as TpEd {
+  *===ID_TpEd_pk
+  *nome_TpEd
+}
+
+entity "Estado_Encomenda" as EstEnc {
+  *===ID_EstEnc_pk
+  *nome_estado_EstEnc
+}
+
+entity "Encomenda" as Enc {
+  *===ID_Enc_pk
+  *ID_EstEnc_fk
+  *codigo_interno_Clt_fk
+  *ID_Hub_fk
+  *data_pedido_Enc
+  *data_entrega_Enc
+  *data_limite_pagamento_Enc
+  *data_pagamento_pelo_cliente_Enc
+}
+
+entity "Incidente" as Inci {
+  *===ID_Enc_pk
+  *codigo_interno_Clt_fk
+  *data_inicio_Inci
+  *data_sanado_Inci
+}
+
+entity "Cliente" as Clt {
+  *===codigo_interno_ck
+  *ID_TpClt_fk
+  *ID_Niv_fk
+  *ID_Hub_fk
+  *nome_Clt
+  *numero_fiscal_Clt_u
+  *email_Clt_u
+  *plafond_Clt
+  *num_encomendas_ult12meses_Clt
+  *valor_total_encomendas_ult12meses_Clt
+
+}
+
+entity "Tipo_Cliente" as TpClt {
+  *===ID_TpClt_pk
+  *designacao_TpClt
+}
+
+entity "Nivel" as Niv {
+  *===ID_Niv_pk
+  *nivel_Niv
+}
+
+entity "Item_Encomenda" as ItmEnc {
+  *===ID_Enc_ck
+  *===ID_Cult_pk
+  *===ID_Prcl_ck
+  *===data_Plant_ck
+  *===data_colh_RgtColh_ck
+  *quantidade_encomendada_ItmEnc
+  *preco_unitario_ItmEnc
+  *nome_produto_ItmEnc
+}
+
+entity "Tipo_Fertilizacao" as TpFert {
+  *===ID_TpFert_pk
+  *tipo_TpFert
+}
+
+entity "Ficha_Tecnica_Producao" as FTFtPrd {
+  *===ID_FTFtPrd_pk
+  *ID_FtPrd_fk
+  *tipo_FTFtPrd
+  *valor_FTFtPrd
+  *unidade_FTFtPrd
+}
+
+entity "Morada" as Mor {
+  *===ID_Mor_pk
+  *codigo_interno_Clt_fk
+  *morada_Mor
+  *fiscal_Mor
+}
+
+Mor ||..o{ Hub
+Hub ||..o{ Enc
+Hub ||..o{ Clt
+TpReg ||..|{ RgtReg
+TpReg ||..|{ PlnReg
+RgtReg }o- -|| Plant
+PlnReg }|- -|| Plant
+Plant ||- -o{ RgtColh
+Prcl ||- -o{ Plant
+Plant ||- - -o{ RgtSens
+RgtSens }o- -|| Sens
+Sens }|..|| TpSens
+Plant }o- -|| Cult
+Cult }|..|| TpCult
+Plant ||- -o{ RgtFert
+Plant ||- -o{ OLog
+OLog ||- -|| FLog
+OLog ||- -|| RLog
+OLog ||- -|| CLog
+Plant ||- -o{ PlnFert
+TpFert ||..|{ RgtFert
+TpFert ||...|{ PlnFert
+FtPrd ||- -|{ PlnFert
+FtPrd ||- -|{ RgtFert
+FtPrd ||..|{ FTFtPrd
+FtPrd }|..|| TpFtPrd
+Prod ||- -o{ ItmEnc
+ItmEnc }|- -|| Enc
+Enc }o..|| EstEnc
+Enc ||- -o| Inci
+Enc }o..|| Mor
+Mor }|..|| Clt
+Clt ||..o{ Enc
+Clt ||..o{ Inci
+Clt }|..|| TpClt
+Clt }|..|| Niv
+Ed }|..|| TpEd
+Prod||- -|| RgtColh
+RgtReg ||- -|| Op
+RgtFert ||- -|| Op
+RgtColh ||- -|| Op
+RFT ||- -o{ Prcl
+RFT ||- -o{ FtPrd
+@enduml
+
+@startuml
+hide circle
+skinparam linetype ortho
+
+entity "OperacaoLog" as OLog {
+  *===ID_OLog_pk
+  *ID_Prcl_fk
+  *ID_Cult_fk
+  *data_Plant_fk
+  *data_exec_OLog
+  *comando_OLog
+  *tipo_operacao_OLog
+  *data_efetivo_previo_OLog
+  *data_efetivo_novo_OLog
+  *data_previsto_previo_OLog
+  *data_previsto_novo_OLog
+  *quantidade_previa_OLog
+  *quantidade_nova_CLog
+  *user
+}
+
+entity "RegaLog" as RLog {
+  *===ID_OLog_pk
+  *tipo_previo_OLog
+  *tipo_novo_OLog
+}
+
+entity "FertilizacaoLog" as FLog {
+    *===ID_OLog_pk
+    *tipo_previo_OLog
+    *tipo_novo_OLog
+}
+
+entity "ColheitaLog" as CLog {
+  *===ID_OLog_pk
+}
+
+entity "Tipo_Rega" as TpReg {
+  *===ID_TpReg_pk
+  *tipo_TpReg
+}
+
+entity "Plano_Rega" as PlnReg {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *ID_TpReg_fk
+  *tempo_rega_PlnReg
+  *periodicidade_PlnReg
+  *quantidade_PlnReg
+}
+entity "RestricoesFatorProducao" as RFT {
+  *===ID_Prcl_ck
+  *===ID_FtPrd_ck
+  *===data_hora_inicio_RFT
+  *===data_hora_fim_RFT
+}
+
+
+entity "Operacao" as Op {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===data_hora_previsto_Op
+  *===data_hora_previsto_Op
+  *data_hora_efetivo_Op
+
+}
+entity "Registo_Rega" as RgtReg {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===data_hora_previsto_RgtReg
+  *data_hora_efetivo_RgtReg_ck
+  *ID_TpReg_fk
+  *quantidade_RgtReg
+}
+
+entity "Parcela" as Prcl {
+  *===ID_Prcl_pk
+  *designacao_Prcl
+  *area_Prcl
+}
+
+entity "Registo_Colheita" as RgtColh {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===data_hora_previsto_RgtColh
+  *data_colh_RgtColh_ck
+  *quantidade_RgtColh
+}
+
+entity "Plantacao" as Plant {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *data_dest_Plant
+  *area_Plant
+}
+
+entity "Tipo_Fator_Producao" as TpFtPrd {
+  *===ID_TpFtPrd_pk
+  *designacao_TpFtPrd
+}
+
+entity "Produto" as Prod {
+  *===ID_Cult_pk
+  *===ID_Prcl_ck
+  *===data_Plant_ck
+  *===data_colh_RgtColh_ck
+  *preco_venda_Prod
+
+}
+
+entity "Cultura" as Cult {
+  *===ID_Cult_pk
+  *ID_TpCult_fk
+  *especie_vegetal_Cult
+}
+
+entity "Tipo_Cultura" as TpCult {
+  *===ID_TpCult_pk
+  *nome_TpCult
+}
+
+entity "Fator_Producao" as FtPrd {
+  *===ID_FtPrd_pk
+  *ID_TpFtPrd_fk
+  *preco_FtPrd
+  *nome_comercial_FTFtPrd
+  *fornecedor
+}
+
+entity "Plano_Fertilizacao" as PlnFert {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===ID_FtPrd_ck
+  *===data_Plant_ck
+  *===data_inicial_PlnFert_ck
+  *===data_final_PlnFert_ck
+  *ID_TpFert_fk
+  *quantidade_PlnFert
+}
+
+entity "Registo_Fertilizacao" as RgtFert {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===ID_FatPrd_ck
+  *===data_hora_previsto_RgtFert
+  *data_hora_efetivo_RgtFert_ck
+  *ID_TpFert_fk
+  *quantidade_RgtFert
+}
+
+entity "Sensor" as Sens {
+  *===ID_Sens_pk
+  *ID_TpSens_fk
+}
+
+entity "Tipo_Sensor" as TpSens {
+  *===ID_TpSens_pk
+  *tipo_TpSens
+  *unidade_TpSens
+  *grandeza_TpSens
+}
+entity "Registo_sensor" as RgtSens {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===ID_Sens_ck
+  *===data_capturado_RgtSens_ck
+  *valor_capturado_RgtSens
+  *valor_ref_InSens
+}
+
+entity "input_sensor" as InSens {
+  *===hub_info
+}
+
+entity "input_hub" as InHub {
+  *===hub_info
+}
+
+entity "Hub" as Hub {
+  *===ID_Hub_pk
+  *lat_Hub
+  *lang_Hub
+}
+
+entity "Edificio" as Ed {
+  *===ID_Ed_pk
+  *ID_TpEd_fk
+}
+
+entity "Tipo_Edificio" as TpEd {
+  *===ID_TpEd_pk
+  *nome_TpEd
+}
+
+entity "Estado_Encomenda" as EstEnc {
+  *===ID_EstEnc_pk
+  *nome_estado_EstEnc
+}
+
+entity "Encomenda" as Enc {
+  *===ID_Enc_pk
+  *ID_EstEnc_fk
+  *codigo_interno_Clt_fk
+  *ID_Hub_fk
+  *data_pedido_Enc
+  *data_entrega_Enc
+  *data_limite_pagamento_Enc
+  *data_pagamento_pelo_cliente_Enc
+}
+
+entity "Incidente" as Inci {
+  *===ID_Enc_pk
+  *codigo_interno_Clt_fk
+  *data_inicio_Inci
+  *data_sanado_Inci
+}
+
+entity "Cliente" as Clt {
+  *===codigo_interno_ck
+  *ID_TpClt_fk
+  *ID_Niv_fk
+  *ID_Hub_fk
+  *nome_Clt
+  *numero_fiscal_Clt_u
+  *email_Clt_u
+  *plafond_Clt
+  *num_encomendas_ult12meses_Clt
+  *valor_total_encomendas_ult12meses_Clt
+
+}
+
+entity "Tipo_Cliente" as TpClt {
+  *===ID_TpClt_pk
+  *designacao_TpClt
+}
+
+entity "Nivel" as Niv {
+  *===ID_Niv_pk
+  *nivel_Niv
+}
+
+entity "Item_Encomenda" as ItmEnc {
+  *===ID_Enc_ck
+  *===ID_Cult_pk
+  *===ID_Prcl_ck
+  *===data_Plant_ck
+  *===data_colh_RgtColh_ck
+  *quantidade_encomendada_ItmEnc
+  *preco_unitario_ItmEnc
+  *nome_produto_ItmEnc
+}
+
+entity "Tipo_Fertilizacao" as TpFert {
+  *===ID_TpFert_pk
+  *tipo_TpFert
+}
+
+entity "Ficha_Tecnica_Producao" as FTFtPrd {
+  *===ID_FTFtPrd_pk
+  *ID_FtPrd_fk
+  *tipo_FTFtPrd
+  *valor_FTFtPrd
+  *unidade_FTFtPrd
+}
+
+entity "Morada" as Mor {
+  *===ID_Mor_pk
+  *codigo_interno_Clt_fk
+  *morada_Mor
+  *fiscal_Mor
+}
+
+Mor ||..o{ Hub
+Hub ||..o{ Enc
+Hub ||..o{ Clt
+TpReg ||..|{ RgtReg
+TpReg ||..|{ PlnReg
+RgtReg }o- -|| Plant
+PlnReg }|- -|| Plant
+Plant ||- -o{ RgtColh
+Prcl ||- -o{ Plant
+Plant ||- - -o{ RgtSens
+RgtSens }o- -|| Sens
+Sens }|..|| TpSens
+Plant }o- -|| Cult
+Cult }|..|| TpCult
+Plant ||- -o{ RgtFert
+Plant ||- -o{ OLog
+OLog ||- -|| FLog
+OLog ||- -|| RLog
+OLog ||- -|| CLog
+Plant ||- -o{ PlnFert
+TpFert ||..|{ RgtFert
+TpFert ||...|{ PlnFert
+FtPrd ||- -|{ PlnFert
+FtPrd ||- -|{ RgtFert
+FtPrd ||..|{ FTFtPrd
+FtPrd }|..|| TpFtPrd
+Prod ||- -o{ ItmEnc
+ItmEnc }|- -|| Enc
+Enc }o..|| EstEnc
+Enc ||- -o| Inci
+Enc }o..|| Mor
+Mor }|..|| Clt
+Clt ||..o{ Enc
+Clt ||..o{ Inci
+Clt }|..|| TpClt
+Clt }|..|| Niv
+Ed }|..|| TpEd
+Prod||- -|| RgtColh
+RgtReg ||- -|| Op
+RgtFert ||- -|| Op
+RgtColh ||- -|| Op
+RFT ||- -o{ Prcl
+RFT ||- -o{ FtPrd
+@enduml
+
+PlantUML version 1.2022.12(Sun Oct 23 19:12:26 WEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: pt
+Country: PT
+--></g></svg>

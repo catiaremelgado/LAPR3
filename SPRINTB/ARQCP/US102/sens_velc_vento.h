@@ -1,0 +1,1 @@
+unsigned char sens_velc_vento(unsigned char ult_velc_vento, char comp_rand);

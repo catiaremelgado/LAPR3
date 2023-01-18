@@ -1,0 +1,1 @@
+char sens_temp(char ult_temp, char comp_rand);

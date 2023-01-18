@@ -1,0 +1,84 @@
+
+/* Definir Parcelas */
+insert into Parcela values (208,'Parcela Um Quarto', 80);
+insert into Parcela values (209,'Parcela Um Meio', 80);
+insert into Parcela values (210,'Parcela Três Quartos', 80);
+insert into Parcela values (211,'Parcela Dois Meios', 80);
+
+/* Definir Tipo Cultura */
+insert into Tipo_Cultura values (200,'Temporária');
+
+/* Definir Culturas */
+insert into Cultura values (201,200,'Cenouras', 0.99);
+insert into Cultura values (202,200,'Beringelas', 2.79);
+insert into Cultura values (203,200,'Cajus', 13.67);
+insert into Cultura values (204,200,'Brócolos', 1.61);
+insert into Cultura values (205,200,'Girassóis', 16);
+
+/* Definir Plantacoes */
+/* Plantacao da Parcela 208 */
+insert into Plantacao values (208,201,date '2020-04-12',null,5);
+insert into Plantacao values (208,202,date '2020-05-12',null,7);
+insert into Plantacao values (208,203,date '2020-06-12',null,20);
+insert into Plantacao values (208,204,date '2020-12-12',null,5);
+insert into Plantacao values (208,205,date '2020-01-12',null,3);
+
+/* Plantacao da Parcela 209 */
+insert into Plantacao values (209,201,date '2019-04-12',null,10);
+insert into Plantacao values (209,202,date '2019-05-12',null,7);
+insert into Plantacao values (209,203,date '2019-06-12',null,8);
+insert into Plantacao values (209,204,date '2019-12-12',null,20);
+
+/* Plantacao da Parcela 210 */
+insert into Plantacao values (210,201,date '2020-07-13',null,35);
+insert into Plantacao values (210,203,date '2020-01-17',null,18);
+insert into Plantacao values (210,204,date '2020-12-28',null,19);
+
+/* Plantacao da Parcela 211 */
+insert into Plantacao values (211,201,date '2017-08-12',null,2);
+insert into Plantacao values (211,202,date '2017-09-16',null,11);
+insert into Plantacao values (211,203,date '2017-10-12',null,8);
+insert into Plantacao values (211,205,date '2017-03-03',null,38);
+
+/* Colheitas */
+/* Parcela 208 */
+/*insert into Registo_Colheita values (209,201,date '2019-04-12',date '2019-04-12',20);*/
+insert into Registo_Colheita values (208,202,date '2020-05-12',date '2021-05-12',9);
+insert into Registo_Colheita values (208,203,date '2020-06-12',date '2021-06-12',15);
+insert into Registo_Colheita values (208,204,date '2020-12-12',date '2021-12-12',3);
+insert into Registo_Colheita values (208,205,date '2020-01-12',date '2020-01-12',4);
+
+/* Parcela 209 */
+insert into Registo_Colheita values (209,201,date '2019-04-12',date '2020-04-12',25);
+insert into Registo_Colheita values (209,202,date '2019-05-12',date '2020-05-12',8);
+insert into Registo_Colheita values (209,203,date '2019-06-12',date '2020-06-12',9);
+insert into Registo_Colheita values (209,204,date '2019-12-12',date '2020-12-12',19);
+
+/* Parcela 210 */
+insert into Registo_Colheita values (210,201,date '2020-07-13',date '2021-07-13',70);
+insert into Registo_Colheita values (210,204,date '2020-12-28',date '2021-12-28',17);
+
+/* Parcela 211 */
+insert into Registo_Colheita values (211,201,date '2017-08-12',date '2017-08-12',1);
+insert into Registo_Colheita values (211,202,date '2017-09-16',date '2017-09-16',12);
+insert into Registo_Colheita values (211,203,date '2017-10-12',date '2017-10-12',6);
+insert into Registo_Colheita values (211,205,date '2017-03-03',date '2017-03-03',32);
+
+/* Para chamar os procedimentos: */
+call prc_listar_por_tonelada_por_hectare(201);
+call prc_listar_por_kiloeuro_por_hectare(201);
+
+call prc_listar_por_tonelada_por_hectare(202);
+call prc_listar_por_kiloeuro_por_hectare(202);
+
+call prc_listar_por_tonelada_por_hectare(203);
+call prc_listar_por_kiloeuro_por_hectare(203);
+
+call prc_listar_por_tonelada_por_hectare(204);
+call prc_listar_por_kiloeuro_por_hectare(204);
+
+call prc_listar_por_tonelada_por_hectare(205);
+call prc_listar_por_kiloeuro_por_hectare(205);
+
+call prc_listar_por_tonelada_por_hectare(0);
+call prc_listar_por_kiloeuro_por_hectare(0);

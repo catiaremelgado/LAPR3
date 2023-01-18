@@ -1,0 +1,53 @@
+---------------------------------------------------------------------------------
+|							             SQL					                |
+---------------------------------------------------------------------------------
+|Elemento		    |Nomenclatura									            |
+---------------------------------------------------------------------------------
+|				    |Nomes singulares para a tabela!					        |
+|				    |Significativo                                              |
+|				    |Preferencialmente uma palavra ou expressão abreviada       |
+|				    |                                                           |
+|Tabelas		    |Nome_Da_Tabela                                             |
+|				    |                                                           |
+|				    |Para cada tabela arranjar um prefixo                       |
+|			    	|                                                           |
+|			    	|NDT                                                        |
+---------------------------------------------------------------------------------
+|			    	|Campo			    |prefixo + nome_campo                   |
+|			    	|Primary Keys		|prefixo + nome_campo_pk                |
+|Atributos		    |Compound Key		|prefixo + nome_campo_ck                |
+|				    |Foreign Keys		|prefixo + nome_campo_fk                |
+|				    |Unique			    |prefixo + nome_campo_u                 |
+|				    |Simultaneamente	|prefixo + nome_campo_pfuk              |
+---------------------------------------------------------------------------------
+|Alias de tabela	|prefixo                                                    |
+---------------------------------------------------------------------------------
+|				    |Primary Keys		|PK_Nome_da_tabela                      |
+|Constraints		|Foreign Keys		|FK_Nome_da_tabela                      |
+|				    |Check			    |CHK_Nome_Atributo_Prefixo              |
+|				    |Views			    |Nome_Da_Tabela_Filtro_V                |
+---------------------------------------------------------------------------------
+|				    |Action: BEFORE INSERT STATEMENT-LEVEL                      |
+|				    |Name: Nome_Da_Tabela_BIS_TRG                               |
+|Trigger			|                                                           |
+|				    |Action: AFTER INSERT AND UPDATE ROW-LEVEL                  |
+|				    |Name: Nome_Da_Tabela_AIUR_TRG                              |
+---------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------
+|				                     PL/SQL                                     |
+---------------------------------------------------------------------------------
+|Funções			|fnc_Nome_Função                                            |
+---------------------------------------------------------------------------------
+|Procedimentos		|prc_Nome_Procedimento                                      |
+---------------------------------------------------------------------------------
+|				    |Variáveis globais			|g_variable_name                |
+|				    |Variáveis locais			|l_variable_name                |
+|				    |Cursor					    |c_cursor_name                  |
+|Variáveis		    |Exceção					|e_exception_name               |
+|				    |Input					    |i_parameter_name               |
+|				    |Output					    |o_parameter_name               |
+|				    |I/O						|io_parameter_name              |
+|				    |Record (linha de registo)	|rec_record_name                |
+---------------------------------------------------------------------------------

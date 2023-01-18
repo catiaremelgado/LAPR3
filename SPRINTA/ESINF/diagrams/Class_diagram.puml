@@ -1,0 +1,259 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package fileUtils
+{
+    class FastReader{
+    br : BufferedReader
+    st : StringTokenizer
+    + FastReader(stream : InputStream)
+    next() : String
+    nextInt() : int
+    nextLong() : Long
+    nextDouble() : double
+    nextLine() : String
+    }
+
+    class Pair{
+    - left : T
+    - right : U
+    + Pair(left : T, right : U)
+    + compareTo(o : Pair<T,U>
+    }
+
+    class StoreData
+    {
+        +{static}readLocations(fileName : String, coordsMap: TreeMap<String, Pair<Float, Float>>) : TreeMap<Location, BusinessEntity>
+        +{static}readGraphData(fileName: String,businessEntityMap : TreeMap<Location,BusinessEntity>, coordsMap: TreeMap<String,Pair<Float,Float>>) : Graph<BusinessEntity,Integer>
+        -{static}verify(data: String[]): boolean
+        -{static} buildGraph(graph :  Graph<BusinessEntity,Integer>,origin : ArrayList<String>, destination: ArrayList<String>, distances: ArrayList<Integer>, businessEntityMap: TreeMap<Location, BusinessEntity>, coordsMap: TreeMap<String, Pair<Float,Float>>)
+        +{static}readWateringConfiguration(filename:String ):WateringConfiguration
+    }
+}
+package graph
+{
+    interface Graph
+    {
+    isDirected() : boolean
+    numVertices(): int
+    vertices(): ArrayList<V>
+    validVertex(V vert): boolean
+    key(V vert): int
+    vertex(int key): V
+    vertex(Predicate<V> p): V
+    adjVertices(V vert): Collection<V>
+    edges(): Collection<Edge<V,E>>
+    edge(V vOrig, V vDest): Edge<V,E>
+    edge(int vOrigKey, int vDestKey): Edge<V,E>
+    outDegree(V vert): int
+    inDegree(V vert): int
+    outgoingEdges(V vert): Collection<Edge<V,E>>
+    incomingEdges(V vert): Collection<Edge<V,E>>
+    addVertex(V vert): boolean
+    addEdge(V vOrig, V vDest, E weight): boolean
+    removeVertex(V vert): boolean
+    removeEdge(V vOrig, V vDest): boolean
+    clone(): Graph<V,E>
+    }
+
+    package map
+    {
+        class MapGraph<V,E>
+        {
+        - mapVertices : Map<V, MapVertex<V,E>>
+        ...
+        }
+        class MapVertex<V,E>
+        {
+        -element: V
+        -outVerts : Map<V,Edge<V,E>>
+        ...
+        }
+    }
+    package matrix
+    {
+        class MatrixGraph
+        {
+        + {static} INITIAL_CAPACITY = 10 :int
+        + {static} RESIZE_FACTOR = 1.5F :float
+        + edgeMatrix: Edge<V,E> [][]
+
+        ...
+
+        }
+
+    }
+
+    class Algorithms
+    {
+        + {static} BreadthFirstSearch(g:Graph<V,E>,vert: V) : LinkedList<V>
+        - {static} DepthFirstSearch(g: Graph<V,E> , vOrig: V, notVisited: ArrayList<V>, qdfs: LinkedList<V>)
+        + {static} DepthFirstSearch(g:Graph<V,E>,vert: V) : LinkedList<V>
+        - {static} allPaths(g: Graph<V,E>,vOrig: V ,vDest: V , visited: boolean[],path: LinkedList<V>,paths: ArrayList<LinkedList<V>>)
+        + {static} allPaths(g: Graph<V,E>,vOrig: V ,vDest: V ): ArrayList<LinkedList<V>>
+        + {static} shortestPathDijkstra(g:Graph<V,E> ,vOrig: V ,ce: Comparator<E> , sum:  BinaryOperator<E>,zero: E ,visited: boolean[],pathKeys: V[] ,dist: E[])
+        + {static} shortestPath(g: Graph<V,E>,vOrig: V ,vDest: V ,ce: Comparator<E> ,sum: BinaryOperator<E>,zero: E ,shortPath: LinkedList<V> ) : E
+        + {static} shortestPaths(g : Graph<V,E>,vOrig: V ,ce: Comparator<E> ,sum: BinaryOperator<E>,zero:  E , paths: ArrayList<LinkedList<V>> ,dists: ArrayList<E>) : boolean
+        + {static} getVertMinDist(visited: boolean[],dist: E[],ce: Comparator<E>, index: ArrayList<V>, infinit: E): V
+        + {static} getPath(g: Graph<V,E>,vOrig: V ,vDest: V ,pathKeys: V[],path: LinkedList<V>)
+        + {static} minDistGraph(g: Graph<V,E>,ce: Comparator<E>, sum: BinaryOperator<E>): MatrixGraph<V,E>
+        + {static} diameterGraph(g: Graph<V,E>,ce:  Comparator<E> ,sum: BinaryOperator<E> ,zero: E): E
+        + {static} isConnected(g: Graph<V,E> ): boolean
+        + {static} kruskalAlgorithm(orig, Graph<V,E>): Graph<V, E>
+    }
+
+    class CommonGraph<V,E>
+    {
+        # numVerts:int
+        # numEdges:int
+        # isDirected: boolean
+        # vertices:ArrayList<V>
+        ...
+    }
+
+    class Edge<V,E>
+    {
+    - vOrig: V
+    - vDest : V
+    - weight : E
+    ...
+    }
+
+    class weightComparator<E>
+    {
+    +compare(o1: Edge<?,E> ,o2: Edge<?,E> ):int
+    }
+}
+
+package model
+{
+    package business_entities
+    {
+        abstract class BusinessEntity
+        {
+        - location: Location
+        - entityID: String
+        ...
+        }
+
+        class Client
+        {
+        ...
+        }
+
+        class Company
+        {
+        - isHub: boolean
+        ...
+        }
+        class PrivateEntity
+        {
+        ...
+        }
+        class Supplier
+        {
+        }
+    }
+
+    class Bundle
+    {
+    -order:TreeMap<Product,OrderItem>
+    -mainSupplier:BusinessEntity
+    -client:BusinessEntity
+    -expeditionDate:String
+    ...
+    }
+
+    class DailyStock
+    {
+    - product: Product
+    - supplier: Supplier
+    - availableQuantity: Integer
+    - day: Integer
+    ...
+    }
+
+    class Location
+    {
+    - LocID: String
+    - coords: Point2D.Float
+    ...
+    }
+
+    class Management
+    {
+    + {static}definingHubs(g:Graph<BusinessEntity,Integer>, N: int)
+    + {static}graphIsConnected(graph:Graph<BusinessEntity,Integer> ): boolean
+    + {static} networkThatConnectsAll(graph:Graph<BusinessEntity, Integer> ): Graph<BusinessEntity, Integer>
+    + {static} closestHub(graph:Graph<BusinessEntity, Integer> ,client:Client ): Company
+    + {static}closestClientsHubs(graph:Graph<BusinessEntity, Integer> ):Map<Client,Company>
+    }
+
+    class OrderItem
+    {
+    - supplier: Supplier
+    - quantityOrdered: Integer
+    - quantityDelivered : Integer
+    ...
+    }
+
+    class Product
+    {
+    - productName: String
+    ...
+    }
+    class WateringConfiguration{
+    -planDuration:Integer
+    -wateringCycleHour:ArrayList<LocalTime>
+    -fieldWateringPlan:ArrayList<WateringPlan>
+    +isCurrentlyWatering(dateTime:LocalDateTime ):TreeMap<WateringPlan,Integer>
+    -checkIfInWateringHour(time:LocalTime,fieldDuration:Integer):LocalTime
+    }
+    class WateringPlan
+    {
+    -field:String
+    -duration:Integer
+    -regularity:char
+    }
+}
+
+interface Comparator<T>
+{
+...
+}
+interface Comparable<T>
+{
+...
+}
+
+class MapGraph extends CommonGraph
+class MatrixGraph extends CommonGraph
+class CommonGraph implements Graph
+class Client extends BusinessEntity
+class Company extends Client
+class PrivateEntity extends Client
+class Supplier extends BusinessEntity
+class weightComparator implements Comparator
+class Location implements Comparable
+class OrderItem implements Comparable
+class WateringPlan implements Comparable
+
+Edge +--weightComparator
+
+Bundle -[dashed]-> Product : uses
+Bundle -[dashed]-> OrderItem : uses
+Bundle -[dashed]--> BusinessEntity : uses
+DailyStock -[dashed]-> Product : uses
+DailyStock -[dashed]----> Supplier : uses
+MapGraph -[dashed]-> MapVertex : uses
+CommonGraph -[dashed]-> Edge : uses
+Algorithms -[dashed]-> Graph : uses
+StoreData -[dashed]-> FastReader : uses
+StoreData -[dashed]-> Pair : uses
+StoreData -[dashed]--> BusinessEntity : uses
+StoreData -[dashed]-> Graph : uses
+StoreData -[dashed]-> WateringConfiguration : uses
+Management -[dashed]-> BusinessEntity : uses
+WateringConfiguration -[dashed]> WateringPlan : uses
+
+@enduml

@@ -1,0 +1,318 @@
+@startuml
+'https://plantuml.com/class-diagram
+hide circle
+skinparam linetype ortho
+
+entity "Operacao_Log" as OLog {
+  *===ID_OLog_pk
+  *ID_Prcl_fk
+  *ID_Cult_fk
+  *data_Plant_fk
+  *data_exec_OLog
+  *comando_OLog
+  *tipo_operacao_OLog
+  *data_efetivo_previo_OLog
+  *data_efetivo_novo_OLog
+  *quantidade_previa_OLog
+  *quantidade_nova_OLog
+  *user_OLog
+}
+
+entity "Rega_Log" as RLog {
+  *===ID_OLog_pk
+  *tipo_previo_RLog
+  *tipo_novo_RLog
+}
+
+entity "Fertilizacao_Log" as FLog {
+    *===ID_OLog_pk
+    *tipo_previo_FLog
+    *tipo_novo_FLog
+}
+
+entity "Colheita_Log" as CLog {
+  *===ID_OLog_pk
+}
+
+entity "Tipo_Rega" as TpReg {
+  *===ID_TpReg_pk
+  *tipo_TpReg
+}
+
+entity "Plano_Rega" as PlnReg {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *ID_TpReg_fk
+  *tempo_rega_PlnReg
+  *periodicidade_PlnReg
+  *quantidade_PlnReg
+}
+
+entity "Restricoes_Fator_Producao" as RFT {
+  *===ID_Prcl_ck
+  *===ID_FtPrd_ck
+  *===data_hora_inicio_RFT
+  *===data_hora_fim_RFT
+}
+
+entity "Operacao" as Op {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===data_hora_previsto_Op_ck
+  *data_hora_efetivo_Op
+  *tipo_operacao_Op
+}
+
+entity "Registo_Rega" as RgtReg {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===data_hora_previsto_RgtReg_ck
+  *data_hora_efetivo_RgtReg
+  *ID_TpReg_fk
+  *quantidade_RgtReg
+}
+
+entity "Parcela" as Prcl {
+  *===ID_Prcl_pk
+  *designacao_Prcl
+  *area_Prcl
+}
+
+entity "Registo_Colheita" as RgtColh {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===data_hora_previsto_RgtColh_ck
+  *data_hora_efetivo_RgtColh
+  *quantidade_RgtColh
+}
+
+entity "Plantacao" as Plant {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *data_dest_Plant
+  *area_Plant
+}
+
+entity "Tipo_Fator_Producao" as TpFtPrd {
+  *===ID_TpFtPrd_pk
+  *designacao_TpFtPrd
+}
+
+entity "Produto" as Prod {
+  *===ID_Cult_ck
+  *===ID_Prcl_ck
+  *===data_Plant_ck
+  *===data_hora_efetivo_RgtColh_ck
+  *preco_venda_Prod
+
+}
+
+entity "Cultura" as Cult {
+  *===ID_Cult_pk
+  *ID_TpCult_fk
+  *especie_vegetal_Cult
+}
+
+entity "Tipo_Cultura" as TpCult {
+  *===ID_TpCult_pk
+  *nome_TpCult
+}
+
+entity "Fator_Producao" as FtPrd {
+  *===ID_FtPrd_pk
+  *ID_TpFtPrd_fk
+  *preco_FtPrd
+  *nome_comercial_FTFtPrd
+  *fornecedor_FtPrd
+}
+
+entity "Plano_Fertilizacao" as PlnFert {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===ID_FtPrd_ck
+  *===data_Plant_ck
+  *===data_inicial_PlnFert_ck
+  *===data_final_PlnFert_ck
+  *ID_TpFert_fk
+  *quantidade_PlnFert
+}
+
+entity "Registo_Fertilizacao" as RgtFert {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===ID_FatPrd_ck
+  *===data_hora_previsto_RgtFert_ck
+  *data_hora_efetivo_RgtFert
+  *ID_TpFert_fk
+  *quantidade_RgtFert
+}
+
+entity "Sensor" as Sens {
+  *===ID_Sens_pk
+  *ID_TpSens_fk
+}
+
+entity "Tipo_Sensor" as TpSens {
+  *===ID_TpSens_pk
+  *tipo_TpSens
+  *unidade_TpSens
+  *grandeza_TpSens
+}
+entity "Registo_Sensor" as RgtSens {
+  *===ID_Prcl_ck
+  *===ID_Cult_ck
+  *===data_Plant_ck
+  *===ID_Sens_ck
+  *===data_capturado_RgtSens_ck
+  *valor_capturado_RgtSens
+  *valor_ref_InSens
+}
+
+entity "input_sensor" as InSens {
+  *===input_string
+}
+
+entity "input_hub" as InHub {
+  *===hub_info
+}
+
+entity "Hub" as Hub {
+  *===ID_Hub_pk
+  *lat_Hub
+  *lang_Hub
+}
+
+entity "Edificio" as Ed {
+  *===ID_Ed_pk
+  *ID_TpEd_fk
+}
+
+entity "Tipo_Edificio" as TpEd {
+  *===ID_TpEd_pk
+  *nome_TpEd
+}
+
+entity "Estado_Encomenda" as EstEnc {
+  *===ID_EstEnc_pk
+  *nome_estado_EstEnc
+}
+
+entity "Encomenda" as Enc {
+  *===ID_Enc_pk
+  *ID_EstEnc_fk
+  *codigo_interno_Clt_fk
+  *ID_Hub_fk
+  *data_pedido_Enc
+  *data_entrega_Enc
+  *data_limite_pagamento_Enc
+  *data_pagamento_pelo_cliente_Enc
+}
+
+entity "Incidente" as Inci {
+  *===ID_Enc_pk
+  *codigo_interno_Clt_fk
+  *data_inicio_Inci
+  *data_sanado_Inci
+}
+
+entity "Cliente" as Clt {
+  *===codigo_interno_pk
+  *ID_TpClt_fk
+  *ID_Niv_fk
+  *ID_Hub_fk
+  *nome_Clt
+  *numero_fiscal_Clt_u
+  *email_Clt_u
+  *plafond_Clt
+  *num_encomendas_ult12meses_Clt
+  *valor_total_encomendas_ult12meses_Clt
+
+}
+
+entity "Tipo_Cliente" as TpClt {
+  *===ID_TpClt_pk
+  *designacao_TpClt
+}
+
+entity "Nivel" as Niv {
+  *===ID_Niv_pk
+  *nivel_Niv
+}
+
+entity "Item_Encomenda" as ItmEnc {
+  *===ID_Enc_ck
+  *===ID_Cult_ck
+  *===ID_Prcl_ck
+  *===data_Plant_ck
+  *===data_hora_efetivo_RgtColh_ck
+  *quantidade_encomendada_ItmEnc
+  *preco_unitario_ItmEnc
+  *nome_produto_ItmEnc
+}
+
+entity "Tipo_Fertilizacao" as TpFert {
+  *===ID_TpFert_pk
+  *tipo_TpFert
+}
+
+entity "Ficha_Tecnica_Producao" as FTFtPrd {
+  *===ID_FTFtPrd_pk
+  *ID_FtPrd_fk
+  *tipo_FTFtPrd
+  *valor_FTFtPrd
+  *unidade_FTFtPrd
+}
+
+entity "Morada" as Mor {
+  *===ID_Mor_pk
+  *codigo_interno_Clt_fk
+  *morada_Mor
+  *fiscal_Mor
+}
+
+Hub ||..o{ Clt
+Hub ||..o{ Enc
+
+TpReg ||..|{ RgtReg
+TpReg ||..|{ PlnReg
+PlnReg }|---|| Plant
+Prcl ||---o{ Plant
+RgtSens }o--|| Sens
+Sens }|..|| TpSens
+Plant }o---|| Cult
+Cult }|..|| TpCult
+Plant ||---o{ OLog
+OLog ||--|| FLog
+OLog ||--|| RLog
+OLog ||--|| CLog
+Plant ||---o{ PlnFert
+TpFert ||..|{ RgtFert
+TpFert ||...|{ PlnFert
+FtPrd ||--|{ PlnFert
+FtPrd ||--|{ RgtFert
+FtPrd ||..|{ FTFtPrd
+FtPrd }|..|| TpFtPrd
+Prod ||--o{ ItmEnc
+ItmEnc }|--|| Enc
+Enc }o..|| EstEnc
+Enc ||--o| Inci
+Mor }|..|| Clt
+Clt ||..o{ Enc
+Clt ||..o{ Inci
+Clt }|..|| TpClt
+Clt }|..|| Niv
+Ed }|..|| TpEd
+Prod||--|| RgtColh
+Plant ||-----o{ Op
+RgtReg ||--|| Op
+RgtFert ||--|| Op
+RgtColh ||--|| Op
+Prcl ||--o{ RFT
+FtPrd ||--o{ RFT
+@enduml

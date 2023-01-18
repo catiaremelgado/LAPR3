@@ -1,0 +1,13 @@
+Sensor: Value
+n_sens_dir_vento: 8
+n_sens_temp: 7
+n_sens_pluvio: 8
+n_velc_vento: 7
+n_sens_humd_solo: 9
+n_sens_humd_atm: 7
+f_sens_dir_vento: 3600
+f_sens_temp: 3600
+f_sens_pluvio: 360
+f_velc_vento: 900
+f_sens_humd_solo: 3600
+f_sens_humd_atm: 3600

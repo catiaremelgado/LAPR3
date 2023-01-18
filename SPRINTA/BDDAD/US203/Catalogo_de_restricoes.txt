@@ -1,0 +1,104 @@
+Restrição de integridade de aplicação:
+
+	Registo Rega:
+		data hora tem de ser, no máximo, de há 15 anos atrás (verificado)
+		quantidade água tem de ser superior a 1 (verificado)
+		
+	Plano Rega:
+		tempo não pode ser inferior a 0. (verificado)
+		periodicidade tem de ser superior a 0. (verificado)
+		quantidade água tem de ser superior a 1 (verificado)
+
+	Categoria substância:
+		nome não pode ser null. (verificado)
+
+	Tipo fator produção:
+		designação não pode ser null (verificado)
+
+	Ficha técnica Fator Produção:
+		nome comercial não pode ser null (verificado)
+		fornecedor não pode ser null. (verificado)
+
+	Fator produção:
+		preço tem de ser maior que 0 (verificado)
+
+	Tipo fertilização:
+		tipo_fert tem de ser diferente de null (verificado)
+
+	Plano fertilização.
+		data inicial no máximo de há 15 anos atrás (verificado)
+		data final tem, no máximo, 30 anos a partir da data inicial. (verificado)
+		data inicial é menor ou igual à data final. (verificado)
+		quantidade tem de ser superior a 0 (limite superior: não há) (verificado)
+
+	Registo fertilização:
+		data hora no máximo de há 15 anos atrás (verificado)
+		quantidade tem de ser superior a 0 (limite superior: não há) (verificado)
+
+	Plantação:
+		data plantação, no máximo, de há 15 anos atrás (verificado)
+		área superior a 0 com, no máximo, 10 000 (hectares) (verificado)
+
+	Registo colheita:
+	    data colheita tem de ser superior à data de plantação mas inferior ou igual à data destruição. (não verificado porque é triggered)
+		quantidade tem de ser superior a 0, limite superior: 50 000 (kg) (verificado)
+	
+	Parcela:
+		designação diferente de null. (verificado)
+		área superior a 0 com, no máximo, 10 000 (hectares) (verificado)
+
+	Registo sensor:
+	    data capturado não pode ser de há mais de 15 anos atrás (verificado) nem pode ser superior à data do sistema. (não dá)
+		valor capturado sem restrição de limites: tecnicamente, é um valor registado "automaticamente" pelo
+		aparelho, que pode estar avariado e, logo, pode dar valores ridículos
+
+	Sensor:
+		Nada: tabela intermédia, só tem chaves.
+
+	Tipo sensor:
+		tipo sensor não pode ser null. (verificado)
+
+	Tipo cultura:
+		nome diferente de null. (verificado)
+
+	Cultura:
+		espécie vegetal diferente de null. (verificado)
+		preço venda superior a 0 (verificado)
+
+	Item encomenda:
+		quantidade encomendada (parte-se do princípio que é em kg) superior a 0, máximo 10 000 kg (verificado)
+
+	Encomenda:
+		data pedido não pode ser de há mais de 15 anos (verificado)
+		data entrega é maior ou igual a data pedido (verificado)
+		data limite pagamento não pode exceder a data de entrega (verificado)
+		data pagamento tem de ser igual ou superior à data do pedido (verificado)
+
+	Estado encomenda:
+		nome estado não nulo (verificado)
+
+	Incidente:
+		data sanado incidente tem de ser igual à data de pagamento e supeior à data limite de pagamento (nao é possível verificar)
+
+	Morada:
+		id é um código decidido de que é um "código postal", isto é um número de 7 dígitos sem o hífen. (verificado)
+		fiscal: 0 ou 1 (inteiro) (verificado)
+
+	Cliente:
+		nome não nulo (verificado), superior a 2 caracteres (verificado)
+		número fiscal confirmar número de dígitos necessários (9 digitos) (verificado)
+		e-mail tem de ter o formato correto (%___@___%.__%) (verificado)
+		plafond superior a 0, limite superior: não tem (verificado)
+		Os outros dois atributos são calculados, apenas se verifica se são superiores ou iguais a 0 (verificado)
+
+	Tipo cliente:
+		designação Empresa ou Particular (verificado)
+
+	Nível:
+		nível não nulo (verificado)
+
+    Edifífio:
+        nada, são só keys
+
+    Tipo edifício:
+        nome não nulo (verificado)

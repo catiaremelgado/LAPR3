@@ -1,0 +1,13 @@
+Limit_sensor: Value
+lim_min_dir_vent: 200
+lim_max_dir_vent: 360
+lim_min_temp: 10
+lim_max_temp: 25
+lim_min_pluvio: 0
+lim_max_pluvio: 10
+lim_min_vel_vent: 7
+lim_max_vel_vent: 25
+lim_min_humd_solo: 25
+lim_max_humd_solo: 25
+lim_min_humd_atm: 25
+lim_max_humd_atm: 25

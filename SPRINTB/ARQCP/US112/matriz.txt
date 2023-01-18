@@ -1,0 +1,7 @@
+| Tipo de sensor           |      Mínimo      |      Máximo      |      Média       |Número de sensores|
+| Direção vento            |        221       |        359       |        290       |        8         |
+| Temperatura              |        -2        |        12        |        0         |        1         |
+| Pluviosidade             |        0         |        122       |        29        |        1         |
+| Velocidade vento         |        0         |        23        |        10        |        1         |
+| Humidade do solo         |        0         |        10        |        3         |        1         |
+| Humidade atmosférica     |        0         |        6         |        1         |        7         |
